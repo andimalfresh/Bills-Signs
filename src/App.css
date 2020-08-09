@@ -53,15 +53,19 @@ a:link,a:visited {
 .redText {
   color:#dc3545;
 }
-.modalDiv {
+.modalDiv,.modalDivFlag {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .modalDiv img {
-  height: 200px;
-  width: 325px;
+  height: 337px;
+  width: 295px;
+}
+.modalDiv img,.modalDivFlag img {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .blurb {
   padding-bottom:25px;
@@ -98,5 +102,9 @@ a:link,a:visited {
   }
   .largeNav {
     display:inline;
+  }
+  .modalDiv img {
+    height: 720px;
+    width: 600px;
   }
 }

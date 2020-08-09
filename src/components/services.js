@@ -25,7 +25,7 @@ function ModalForLic (props) {
             <img id="logoImgModal" src={require('./img/billsLogo.png')} alt='logo' />    
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+        <Button onClick={props.onHide} variant="danger">Close</Button>
       </Modal.Footer>
     </Modal>
   );
@@ -46,12 +46,12 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDiv'>
-            <img src={require('./img/banners/img1.jpg')} />
-            <img src={require('./img/banners/img2.jpg')} />
+            <img src={require('./img/lighted/img1.jpg')} />
+            <img src={require('./img/lighted/img2.jpg')} />
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
+          <Button onClick={props.onHide} variant="danger">Close</Button>
         </Modal.Footer>
       </Modal>
     );
@@ -72,12 +72,12 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDiv'>
-            <img src={require('./img/banners/img1.jpg')} />
-            <img src={require('./img/banners/img2.jpg')} />
+            <img src={require('./img/way/img1.jpg')} />
+            <img src={require('./img/way/img2.jpg')} />
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
+          <Button onClick={props.onHide} variant="danger">Close</Button>
         </Modal.Footer>
       </Modal>
     );
@@ -102,11 +102,10 @@ function ModalForLic (props) {
             <img src={require('./img/channel/img2.jpg')} />
             <img src={require('./img/channel/img3.jpg')} />
             <img src={require('./img/channel/img4.jpg')} />
-            <img src={require('./img/channel/img5.jpg')} />
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
+          <Button onClick={props.onHide} variant="danger">Close</Button>
         </Modal.Footer>
       </Modal>
     );
@@ -127,15 +126,13 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDiv'>
-            <img src={require('./img/channel/img1.jpg')} />
-            <img src={require('./img/channel/img2.jpg')} />
-            <img src={require('./img/channel/img3.jpg')} />
-            <img src={require('./img/channel/img4.jpg')} />
-            <img src={require('./img/channel/img5.jpg')} />
+            <img src={require('./img/electronic/img1.jpg')} />
+            <img src={require('./img/electronic/img2.jpg')} />
+            <img src={require('./img/electronic/img3.jpg')} />
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
+          <Button onClick={props.onHide} variant="danger">Close</Button>
         </Modal.Footer>
       </Modal>
     );
@@ -155,22 +152,19 @@ function ModalForLic (props) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <div className='modalDiv'>
-            <img src={require('./img/channel/img1.jpg')} />
-            <img src={require('./img/channel/img2.jpg')} />
-            <img src={require('./img/channel/img3.jpg')} />
-            <img src={require('./img/channel/img4.jpg')} />
-            <img src={require('./img/channel/img5.jpg')} />
+          <div className='modalDivFlag'>
+            <img src={require('./img/flag/img1.jpg')} />
+            <img src={require('./img/flag/img2.jpg')} />
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
+          <Button onClick={props.onHide} variant="danger">Close</Button>
         </Modal.Footer>
       </Modal>
     );
   }
 
-  function ModalForMonmument (props) {
+  function ModalForMonument (props) {
     return (
       <Modal
         {...props}
@@ -180,20 +174,18 @@ function ModalForLic (props) {
       >
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
-            Monmument Signs
+            Monument Signs
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <div className='modalDiv'>
-            <img src={require('./img/channel/img1.jpg')} />
-            <img src={require('./img/channel/img2.jpg')} />
-            <img src={require('./img/channel/img3.jpg')} />
-            <img src={require('./img/channel/img4.jpg')} />
-            <img src={require('./img/channel/img5.jpg')} />
+            <img src={require('./img/monument/img1.jpg')} />
+            <img src={require('./img/monument/img2.jpg')} />
+            <img src={require('./img/monument/img3.jpg')} />
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
+          <Button onClick={props.onHide} variant="danger">Close</Button>
         </Modal.Footer>
       </Modal>
     );
@@ -214,15 +206,13 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDiv'>
-            <img src={require('./img/channel/img1.jpg')} />
-            <img src={require('./img/channel/img2.jpg')} />
-            <img src={require('./img/channel/img3.jpg')} />
-            <img src={require('./img/channel/img4.jpg')} />
-            <img src={require('./img/channel/img5.jpg')} />
+            <img src={require('./img/tenantshopping/img1.jpg')} />
+            <img src={require('./img/tenantshopping/img2.jpg')} />
+            <img src={require('./img/tenantshopping/img3.jpg')} />
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
+          <Button onClick={props.onHide} variant="danger">Close</Button>
         </Modal.Footer>
       </Modal>
     );
@@ -243,15 +233,13 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDiv'>
-            <img src={require('./img/channel/img1.jpg')} />
-            <img src={require('./img/channel/img2.jpg')} />
-            <img src={require('./img/channel/img3.jpg')} />
-            <img src={require('./img/channel/img4.jpg')} />
-            <img src={require('./img/channel/img5.jpg')} />
+            <img src={require('./img/plaques/img1.jpg')} />
+            <img src={require('./img/plaques/img2.jpg')} />
+            <img src={require('./img/plaques/img3.jpg')} />
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
+          <Button onClick={props.onHide} variant="danger">Close</Button>
         </Modal.Footer>
       </Modal>
     );
@@ -272,15 +260,13 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDiv'>
-            <img src={require('./img/channel/img1.jpg')} />
-            <img src={require('./img/channel/img2.jpg')} />
-            <img src={require('./img/channel/img3.jpg')} />
-            <img src={require('./img/channel/img4.jpg')} />
-            <img src={require('./img/channel/img5.jpg')} />
+            <img src={require('./img/pole/img1.jpg')} />
+            <img src={require('./img/pole/img2.jpg')} />
+            <img src={require('./img/pole/img3.jpg')} />
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
+          <Button onClick={props.onHide} variant="danger">Close</Button>
         </Modal.Footer>
       </Modal>
     );
@@ -301,15 +287,13 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDiv'>
-            <img src={require('./img/channel/img1.jpg')} />
-            <img src={require('./img/channel/img2.jpg')} />
-            <img src={require('./img/channel/img3.jpg')} />
-            <img src={require('./img/channel/img4.jpg')} />
-            <img src={require('./img/channel/img5.jpg')} />
+            <img src={require('./img/tenantshopping/img1.jpg')} />
+            <img src={require('./img/tenantshopping/img2.jpg')} />
+            <img src={require('./img/tenantshopping/img3.jpg')} />
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
+          <Button onClick={props.onHide} variant="danger">Close</Button>
         </Modal.Footer>
       </Modal>
     );
@@ -329,16 +313,14 @@ function ModalForLic (props) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <div className='modalDiv'>
-            <img src={require('./img/channel/img1.jpg')} />
-            <img src={require('./img/channel/img2.jpg')} />
-            <img src={require('./img/channel/img3.jpg')} />
-            <img src={require('./img/channel/img4.jpg')} />
-            <img src={require('./img/channel/img5.jpg')} />
+          <div className='modalDivFlag'>
+            <img src={require('./img/vinyl/img1.jpg')} />
+            <img src={require('./img/vinyl/img2.jpg')} />
+            <img src={require('./img/vinyl/img3.jpg')} />
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
+          <Button onClick={props.onHide} variant="danger">Close</Button>
         </Modal.Footer>
       </Modal>
     );
@@ -358,16 +340,14 @@ function ModalForLic (props) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <div className='modalDiv'>
-            <img src={require('./img/channel/img1.jpg')} />
-            <img src={require('./img/channel/img2.jpg')} />
-            <img src={require('./img/channel/img3.jpg')} />
-            <img src={require('./img/channel/img4.jpg')} />
-            <img src={require('./img/channel/img5.jpg')} />
+          <div className='modalDivFlag'>
+            <img src={require('./img/wall/img1.jpg')} />
+            <img src={require('./img/wall/img2.jpg')} />
+            <img src={require('./img/wall/img3.jpg')} />
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={props.onHide}>Close</Button>
+          <Button onClick={props.onHide} variant="danger">Close</Button>
         </Modal.Footer>
       </Modal>
     );
@@ -381,7 +361,7 @@ const Services = () => {
     const [channelLettersShow, setChannelLettersShow] = React.useState(false);
     const [messageShow, setMessageShow] = React.useState(false);
     const [flagShow, setFlagShow] = React.useState(false);
-    const [monmumentShow, setMonmumentShow] = React.useState(false);
+    const [monumentShow, setMonumentShow] = React.useState(false);
     const [tenantShow, setTenantShow] = React.useState(false);
     const [plaqueShow, setPlaqueShow] = React.useState(false);
     const [poleShow, setPoleShow] = React.useState(false);
@@ -441,8 +421,8 @@ const Services = () => {
                         <Dropdown.Item onClick={() => setWallShow(true)}>Wall Signs</Dropdown.Item>
                         <ModalForWall show={wallShow} onHide={() => setWallShow(false)}/>
 
-                        <Dropdown.Item onClick={() => setMonmumentShow(true)}>Monument Signs</Dropdown.Item>
-                        <ModalForMonmument show={monmumentShow} onHide={() => setMonmumentShow(false)}/>
+                        <Dropdown.Item onClick={() => setMonumentShow(true)}>Monument Signs</Dropdown.Item>
+                        <ModalForMonument show={monumentShow} onHide={() => setMonumentShow(false)}/>
 
                         <Dropdown.Item onClick={() => setPlaqueShow(true)}>Plaques</Dropdown.Item>
                         <ModalForPlaque show={plaqueShow} onHide={() => setPlaqueShow(false)}/>
@@ -459,8 +439,8 @@ const Services = () => {
                         <Dropdown.Item onClick={() => setVinylShow(true)}>Vinyl Lettering</Dropdown.Item>
                         <ModalForVinyl show={vinylShow} onHide={() => setVinylShow(false)}/>
 {/* 
-                        <Dropdown.Item onClick={() => setBannerShow(true)}>Banners</Dropdown.Item>
-                        <ModalForBanner show={bannerShow} onHide={() => setBannerShow(false)}/>
+                        <Dropdown.Item onClick={() => setflaghow(true)}>flag</Dropdown.Item>
+                        <ModalForBanner show={flaghow} onHide={() => setflaghow(false)}/>
 
                         <Dropdown.Item onClick={() => setBoatLetterShow(true)}>Boat Letters</Dropdown.Item>
                         <ModalForBoatLetter show={boatLetterShow} onHide={() => setBoatLetterShow(false)}/>

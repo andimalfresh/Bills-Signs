@@ -60,25 +60,37 @@ const Land = () => {
                   <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={require('./img/channel/img7.jpg')}
+                    src={require('./img/gallery/img1.jpg')}
                     alt="First slide"
                   />
-                  <Carousel.Caption className='carouselCaption'>
-                    <h3>First Image</h3>
-                    <p>(optional caption for first image)</p>
-                  </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src={require('./img/channel/img7.jpg')}
+                    src={require('./img/gallery/img2.jpg')}
                     alt="Second slide"
                   />
-
-                  <Carousel.Caption className='carouselCaption'>
-                    <h3>Second Image</h3>
-                    <p>(optional caption for second image)</p>
-                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={require('./img/gallery/img3.jpg')}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={require('./img/gallery/img4.jpg')}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={require('./img/gallery/img5.jpg')}
+                    alt="Second slide"
+                  />
                 </Carousel.Item>
               </Carousel>
               </div>
