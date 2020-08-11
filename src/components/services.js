@@ -181,7 +181,7 @@ function ModalForLic (props) {
           <div className='modalDiv'>
             <img src={require('./img/monument/img1.jpg')} />
             <img src={require('./img/monument/img2.jpg')} />
-            <img src={require('./img/monument/img3.jpg')} />
+            {/* <img src={require('./img/monument/img3.jpg')} /> */}
           </div>
         </Modal.Body>
         <Modal.Footer>

@@ -24,6 +24,10 @@ ul {
   border-radius: 25px;
   opacity: .8;
 }
+.carousel {
+  height: auto;
+  width: 100%;
+}
 .addressList,.servicesList {
   padding-top:25px;
   padding-bottom:25px;
@@ -74,7 +78,7 @@ a:link,a:visited {
   padding-top:25px;
 }
 #logoImgModal {
-  height: 75px;
+  height: 100px;
   width: 125px;
 }
 .mapComponent {
@@ -91,7 +95,7 @@ a:link,a:visited {
   }
   .carousel {
     height: auto;
-    width: 50%;
+    width: 75%;
   }
   .mapComponent {
     width: 600px;
