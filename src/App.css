@@ -78,12 +78,12 @@ a:link,a:visited {
   padding-top:25px;
 }
 #logoImgModal {
-  height: 100px;
+  height: 80px;
   width: 125px;
 }
 .mapComponent {
-  width: 300px;
-  height: 300px;
+  width: 300px !important;
+  height: 300px !important;
 }
 .largeNav {
   display:none;
@@ -98,8 +98,8 @@ a:link,a:visited {
     width: 75%;
   }
   .mapComponent {
-    width: 600px;
-    height: 600px;
+    width: 100% !important;
+    height: 200px !important;
   }
   .mobileNav {
     display:none;

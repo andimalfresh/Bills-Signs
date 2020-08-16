@@ -1,12 +1,13 @@
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Button from 'react-bootstrap/Button'
-import MapComponent from './mapcomponent'
 import {Modal,Carousel} from 'react-bootstrap'
 import Nav from 'react-bootstrap/Nav'
 
 
 function ModalForLic (props) {
+
+
   return (
     <Modal
       {...props}
@@ -126,13 +127,15 @@ const Land = () => {
                         <li>Effective Sign Design</li>
                         <li>All Tailored for Your Specific Location</li>
                     </ul>
+                    
+                      
+                    
                         <a href="tel:850-576-6847"><Button variant="danger" className='callButton'>Call Us Today</Button></a>
-              </Jumbotron>                  
-              <div className='d-flex justify-content-center'>
-                  {/* <MapComponent />            */}
-                </div>
+                       
+                </Jumbotron>
+                <img id="logoImgModal" src={require('./img/billsLogo.png')} alt='logo' />            
                 <ul className='addressList'>
-                    <li>5765 Mandy Lane Tallahassee, Florida</li>
+                    <li><a href="https://www.google.com/maps/place/Bill's+Signs+%26+Services+Inc/@30.43918,-84.372066,15z/data=!4m5!3m4!1s0x0:0xbee05e2b1418f560!8m2!3d30.43918!4d-84.372066">5765 Mandy Lane Tallahassee, Florida</a></li>
                     <li>850-576-6847 &#183; info@billssigns.com</li>
                     <li className='lisenceModal' onClick={() => setModalShow(true)}>License Info</li>
                     <ModalForLic  show={modalShow}onHide={() => setModalShow(false)}/>

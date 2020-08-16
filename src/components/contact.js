@@ -1,7 +1,12 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav'
-import { Jumbotron,Button,Modal } from 'react-bootstrap'
+import { Jumbotron,Button,Modal,Form } from 'react-bootstrap'
 import { Helmet } from 'react-helmet'
+
+
+let dothis = () => {
+  console.log("DeezNuts")
+}
 
 function ModalForLic (props) {
   return (
@@ -69,8 +74,30 @@ const Contact = () => {
                     <li><a href="mailto:info@billssigns.com">Maintenance</a></li>
                 </ul>
             </div>
+
+              {/* <Form>
+                <Form.Group controlId="formBasicEmail">
+                  <Form.Label>Email address</Form.Label>
+                  <Form.Control type="email" placeholder="Enter email" />
+                  <Form.Text className="text-muted">
+                    We'll never share your email with anyone else.
+                  </Form.Text>
+                </Form.Group>
+
+                <Form.Group controlId="formBasicPassword">
+                  <Form.Label>Password</Form.Label>
+                  <Form.Control type="password" placeholder="Password" />
+                </Form.Group>
+                <Form.Group controlId="formBasicCheckbox">
+                  <Form.Check type="checkbox" label="Check me out" />
+                </Form.Group>
+                <Button onClick={dothis()} variant="danger" type="submit">
+                  Submit
+                </Button>
+              </Form> */}
+                          <a href="tel:850-576-6847"><Button variant="danger">Call Us Today</Button></a>
             </Jumbotron>
-            <a href="tel:850-576-6847"><Button variant="danger">Call Us Today</Button></a>
+            <img id="logoImgModal" src={require('./img/billsLogo.png')} alt='logo' />    
             <ul className='addressList'>
                     <li>5765 Mandy Lane Tallahassee, Florida</li>
                     <li>850-576-6847 &#183; info@billssigns.com</li>
