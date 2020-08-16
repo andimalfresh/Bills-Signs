@@ -1,7 +1,8 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav'
 import Dropdown from 'react-bootstrap/Dropdown'
-import { Jumbotron,Button,Modal } from 'react-bootstrap'
+import { Jumbotron,Button,Modal} from 'react-bootstrap'
+import { Helmet } from 'react-helmet'
 
 
 function ModalForLic (props) {
@@ -370,7 +371,14 @@ const Services = () => {
     const [wallShow, setWallShow] = React.useState(false);
 
     return (
+
         <div> 
+                <Helmet>
+                  <meta charSet="utf-8" />
+                  <title>Bill's Signs - Services </title>
+                  <link rel="canonical" href="https://billssigns.com/services" />
+                  <meta name="Bills Signs" content="Here is a list of services provided by Bill's Signs. Contact us today about building a new project for your business."></meta>
+                </Helmet>
             <Nav fill variant="tabs" defaultActiveKey="/services">
                 <Nav.Item>
                     <Nav.Link href="/" eventKey="link-1">Home</Nav.Link>
@@ -398,7 +406,7 @@ const Services = () => {
                 </div>
                 <span className='exerpt'>Use the services button below to check out what we can make for your business.</span>
                 <Dropdown className="buttonPadding">
-                    <Dropdown.Toggle variant="danger" id="dropdown-basic">
+                    <Dropdown.Toggle variant="danger" id="dropdown-button-drop-$left" drop="left" key="left">
                         Services&nbsp; 
                     </Dropdown.Toggle>
 
@@ -457,8 +465,7 @@ const Services = () => {
             <a href="tel:850-576-6847"><Button variant="danger">Call Us Today</Button></a>
             <ul className='addressList'>
                     <li>5765 Mandy Lane Tallahassee, Florida</li>
-                    <li>850-576-6847</li>
-                    <li> info@billssigns.com</li>
+                    <li>850-576-6847 &#183; info@billssigns.com</li>
                     <li className='lisenceModal' onClick={() => setModalShow(true)}>License Info</li>
                     <ModalForLic  show={modalShow} onHide={() => setModalShow(false)}/>
             </ul>

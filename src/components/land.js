@@ -24,10 +24,10 @@ function ModalForLic (props) {
         <p>We were the First Sign Company in Tallahassee to obtain a <span className="experpt">State License ES12000087</span>.</p> 
         <p> We qualified on 4/26/2002, which was well before the City of Tallahassee required sign contractors to obtain a state license.
             Don't be duped by other Sign Companies who aren't properly qualified.</p>
-            <img id="logoImgModal" src={require('./img/billsLogo.png')} alt='logo' />           
+            <img id="logoImgModal" src={require('./img/billsLogo.png')} alt='logo' />         
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+        <Button onClick={props.onHide} variant='danger'>Close</Button>
       </Modal.Footer>
     </Modal>
   );
@@ -102,16 +102,19 @@ const Land = () => {
                     <span className='redText'>
                         <b>Three important things to look for in your sign partner:</b>
                     </span>
-                    <p>
-                        <span className='emphText'>Quality:</span> 
+                    
+                    <div className='emphText'>Quality:</div>
+                    <p> 
                         Cheap signs can ruin your company's image.
                         Our signs will create and maintain a positive image.
                     </p>
-                    <p><span className='emphText'>Experience:</span> 
+                    <div className='emphText'>Experience:</div>
+                    <p> 
                         Make an informed decision when buying your sign;
                         40 Years of experience means we know how to help.
                     </p>
-                    <p><span className='emphText'>Dependability:</span> 
+                    <div className='emphText'>Dependability:</div>
+                    <p> 
                         Our signs are backed with industry leading warranties.
                         Get a great sign and peace of mind!
                         How much do you spend per month on advertisement with meager results?
@@ -124,13 +127,13 @@ const Land = () => {
                         <li>All Tailored for Your Specific Location</li>
                     </ul>
                         <a href="tel:850-576-6847"><Button variant="danger" className='callButton'>Call Us Today</Button></a>
-
-              </Jumbotron>                
-                <div className='d-flex justify-content-center'><MapComponent /></div>
+              </Jumbotron>                  
+              <div className='d-flex justify-content-center'>
+                  {/* <MapComponent />            */}
+                </div>
                 <ul className='addressList'>
                     <li>5765 Mandy Lane Tallahassee, Florida</li>
-                    <li>850-576-6847</li>
-                    <li> info@billssigns.com</li>
+                    <li>850-576-6847 &#183; info@billssigns.com</li>
                     <li className='lisenceModal' onClick={() => setModalShow(true)}>License Info</li>
                     <ModalForLic  show={modalShow}onHide={() => setModalShow(false)}/>
                 </ul>

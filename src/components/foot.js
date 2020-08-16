@@ -23,15 +23,6 @@ const Foot = () => {
               className="d-inline-block align-top"
             />
           </Navbar.Brand>
-          {/* <Navbar.Brand target="_blank" rel="noopener noreferrer" href="http://instagram.com">
-            <img
-              alt="Connect with us on Instagram"
-              src={require("./img/insta.svg")}
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-            />
-          </Navbar.Brand> */}
         </Navbar>
       </div>
     )

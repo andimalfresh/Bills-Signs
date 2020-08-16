@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav'
 import { Jumbotron,Button,Modal } from 'react-bootstrap'
+import { Helmet } from 'react-helmet'
 
 function ModalForLic (props) {
   return (
@@ -12,7 +13,7 @@ function ModalForLic (props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-        State Licensed and Insured
+          State Licensed and Insured
         </Modal.Title>
       </Modal.Header>
       <Modal.Body className="modalDiv">
@@ -34,8 +35,12 @@ const Contact = () => {
     const [modalShow, setModalShow] = React.useState(false);
 
     return (
-
         <div>
+            <Helmet>
+                  <title>Bill's Signs - Contact </title>
+                  <link rel="canonical" href="https://billssigns.com/contact" />
+                  <meta name="Bills Signs" content="Reach out and Contact us today about building your next sign for your business"></meta>
+            </Helmet>
             <Nav fill variant="tabs" defaultActiveKey="/contact">
                 <Nav.Item>
                   <Nav.Link href="/" eventKey="link-2">Home</Nav.Link>
@@ -68,12 +73,10 @@ const Contact = () => {
             <a href="tel:850-576-6847"><Button variant="danger">Call Us Today</Button></a>
             <ul className='addressList'>
                     <li>5765 Mandy Lane Tallahassee, Florida</li>
-                    <li>850-576-6847</li>
-                    <li> info@billssigns.com</li>
+                    <li>850-576-6847 &#183; info@billssigns.com</li>
                     <li className='lisenceModal' onClick={() => setModalShow(true)}>License Info</li>
                     <ModalForLic  show={modalShow}onHide={() => setModalShow(false)}/>
             </ul>
-
         </div>
     )
 } 
