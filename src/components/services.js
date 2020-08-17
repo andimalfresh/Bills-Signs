@@ -23,7 +23,7 @@ function ModalForLic (props) {
         <p>We were the First Sign Company in Tallahassee to obtain a <span className="experpt">State License ES12000087</span>.</p> 
         <p> We qualified on 4/26/2002, which was well before the City of Tallahassee required sign contractors to obtain a state license.
             Don't be duped by other Sign Companies who aren't properly qualified.</p>
-            <img id="logoImgModal" src={require('./img/billsLogo.png')} alt='logo' />    
+            <img id="logoImgLic" src={require('./img/billsLogo.png')} alt='Bills Signs and Services Logo' />    
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide} variant="danger">Close</Button>
@@ -47,8 +47,8 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDiv'>
-            <img src={require('./img/lighted/img1.jpg')} />
-            <img src={require('./img/lighted/img2.jpg')} />
+            <img src={require('./img/lighted/img1.jpg')} alt="This is a Lighted Sign Example #1" />
+            <img src={require('./img/lighted/img2.jpg')} alt="This is a Lighted Sign Example #2"/>
           </div>
         </Modal.Body>
         <Modal.Footer>
@@ -73,8 +73,8 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDiv'>
-            <img src={require('./img/way/img1.jpg')} />
-            <img src={require('./img/way/img2.jpg')} />
+            <img src={require('./img/way/img1.jpg')} alt="This is a Way Finding Example #1"/>
+            <img src={require('./img/way/img2.jpg')} alt="This is a Way Finding Example #2"/>
           </div>
         </Modal.Body>
         <Modal.Footer>
@@ -99,10 +99,10 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDiv'>
-            <img src={require('./img/channel/img1.jpg')} />
-            <img src={require('./img/channel/img2.jpg')} />
-            <img src={require('./img/channel/img3.jpg')} />
-            <img src={require('./img/channel/img4.jpg')} />
+            <img src={require('./img/channel/img1.jpg')} alt="This is a Channel Letter Sign Example #1"/>
+            <img src={require('./img/channel/img2.jpg')} alt="This is a Channel Letter Sign Example #2"/>
+            <img src={require('./img/channel/img3.jpg')} alt="This is a Channel Letter Sign Example #3"/>
+            <img src={require('./img/channel/img4.jpg')} alt="This is a Channel Letter Sign Example #4"/>
           </div>
         </Modal.Body>
         <Modal.Footer>
@@ -127,9 +127,9 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDiv'>
-            <img src={require('./img/electronic/img1.jpg')} />
-            <img src={require('./img/electronic/img2.jpg')} />
-            <img src={require('./img/electronic/img3.jpg')} />
+            <img src={require('./img/electronic/img1.jpg')} alt="This is a Electronic Message Sign Example #1" />
+            <img src={require('./img/electronic/img2.jpg')} alt="This is a Electronic Message Sign Example #2" />
+            <img src={require('./img/electronic/img3.jpg')} alt="This is a Electronic Message Sign Example #3" />
           </div>
         </Modal.Body>
         <Modal.Footer>
@@ -154,8 +154,8 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDivFlag'>
-            <img src={require('./img/flag/img1.jpg')} />
-            <img src={require('./img/flag/img2.jpg')} />
+            <img src={require('./img/flag/img1.jpg')} alt="This is a Flag Pole Example #1"/>
+            <img src={require('./img/flag/img2.jpg')} alt="This is a Flag Pole Example #2"/>
           </div>
         </Modal.Body>
         <Modal.Footer>
@@ -180,8 +180,8 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDiv'>
-            <img src={require('./img/monument/img1.jpg')} />
-            <img src={require('./img/monument/img2.jpg')} />
+            <img src={require('./img/monument/img1.jpg')} alt="This is a Monument Sign, Example #1" />
+            <img src={require('./img/monument/img2.jpg')} alt="This is a Monument Sign, Example #2" />
             {/* <img src={require('./img/monument/img3.jpg')} /> */}
           </div>
         </Modal.Body>
@@ -207,9 +207,9 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDiv'>
-            <img src={require('./img/tenantshopping/img1.jpg')} />
-            <img src={require('./img/tenantshopping/img2.jpg')} />
-            <img src={require('./img/tenantshopping/img3.jpg')} />
+            <img src={require('./img/tenantshopping/img1.jpg')} alt="This is a Tenant Sign, Example #1" />
+            <img src={require('./img/tenantshopping/img2.jpg')} alt="This is a Tenant Sign, Example #2" />
+            <img src={require('./img/tenantshopping/img3.jpg')} alt="This is a Tenant Sign, Example #3"/>
           </div>
         </Modal.Body>
         <Modal.Footer>
@@ -234,9 +234,9 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDiv'>
-            <img src={require('./img/plaques/img1.jpg')} />
-            <img src={require('./img/plaques/img2.jpg')} />
-            <img src={require('./img/plaques/img3.jpg')} />
+            <img src={require('./img/plaques/img1.jpg')} alt="This is a Plaque, Example #1" />
+            <img src={require('./img/plaques/img2.jpg')} alt="This is a Plaque, Example #2"/>
+            <img src={require('./img/plaques/img3.jpg')}alt="This is a Plaque, Example #3" />
           </div>
         </Modal.Body>
         <Modal.Footer>
@@ -261,9 +261,9 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDiv'>
-            <img src={require('./img/pole/img1.jpg')} />
-            <img src={require('./img/pole/img2.jpg')} />
-            <img src={require('./img/pole/img3.jpg')} />
+            <img src={require('./img/pole/img1.jpg')} alt="This is a Pole Sign, Example #1" />
+            <img src={require('./img/pole/img2.jpg')} alt="This is a Pole Sign, Example #2" />
+            <img src={require('./img/pole/img3.jpg')} alt="This is a Pole Sign, Example #3" />
           </div>
         </Modal.Body>
         <Modal.Footer>
@@ -288,9 +288,9 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDiv'>
-            <img src={require('./img/tenantshopping/img1.jpg')} />
-            <img src={require('./img/tenantshopping/img2.jpg')} />
-            <img src={require('./img/tenantshopping/img3.jpg')} />
+            <img src={require('./img/tenantshopping/img1.jpg')} alt="This is a Shopping Center Sign, Example #1" />
+            <img src={require('./img/tenantshopping/img2.jpg')} alt="This is a Shopping Center Sign, Example #2" />
+            <img src={require('./img/tenantshopping/img3.jpg')} alt="This is a Shopping Center Sign, Example #3" />
           </div>
         </Modal.Body>
         <Modal.Footer>
@@ -315,9 +315,9 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDivFlag'>
-            <img src={require('./img/vinyl/img1.jpg')} />
-            <img src={require('./img/vinyl/img2.jpg')} />
-            <img src={require('./img/vinyl/img3.jpg')} />
+            <img src={require('./img/vinyl/img1.jpg')} alt="This is a Vinyl Sign, Example #1" />
+            <img src={require('./img/vinyl/img2.jpg')} alt="This is a Vinyl Sign, Example #2" />
+            <img src={require('./img/vinyl/img3.jpg')} alt="This is a Vinyl Sign, Example #3"/>
           </div>
         </Modal.Body>
         <Modal.Footer>
@@ -342,9 +342,9 @@ function ModalForLic (props) {
         </Modal.Header>
         <Modal.Body>
           <div className='modalDivFlag'>
-            <img src={require('./img/wall/img1.jpg')} />
-            <img src={require('./img/wall/img2.jpg')} />
-            <img src={require('./img/wall/img3.jpg')} />
+            <img src={require('./img/wall/img1.jpg')} alt="This is a Wall Sign, Example #1" />
+            <img src={require('./img/wall/img2.jpg')} alt="This is a Wall Sign, Example #2" />
+            <img src={require('./img/wall/img3.jpg')} alt="This is a Wall Sign, Example #3"/>
           </div>
         </Modal.Body>
         <Modal.Footer>
@@ -392,7 +392,7 @@ const Services = () => {
             </Nav>
             <Jumbotron>
                 <div className="contentDiv">
-                <img className="logoImg" src={require('./img/billsLogo.png')} alt='logo' />
+                <img className="logoImg" src={require('./img/billsLogo.png')} alt='Bills Signs Logo for the Top of the Services page' />
                 <h1>Services</h1>
                     Don't have a clue what you need at your site?
                     Give us a call and our team of professionals will guide you in the right direction. We will work with you through the whole process:

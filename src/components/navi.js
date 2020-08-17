@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar, NavDropdown, Nav} from 'react-bootstrap'
+import {Navbar, Nav} from 'react-bootstrap'
 
 const Navi = () => {
     return (
@@ -8,7 +8,7 @@ const Navi = () => {
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
             <Navbar.Brand href="/">
             <img
-                    alt=""
+                    alt="Bills Sign's Small Logo"
                     src={require("./img/LogoBad.jpg")}
                     width="50"
                     height="30"
@@ -30,7 +30,7 @@ const Navi = () => {
             <Navbar bg="dark" variant="dark">
                 <Navbar.Brand href="/">
                 <img
-                    alt=""
+                    alt="Bills Signs Small Logo for Navigation"
                     src={require("./img/LogoBad.jpg")}
                     width="50"
                     height="30"

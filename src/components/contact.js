@@ -1,12 +1,7 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav'
-import { Jumbotron,Button,Modal,Form } from 'react-bootstrap'
+import { Jumbotron,Button,Modal} from 'react-bootstrap'
 import { Helmet } from 'react-helmet'
-
-
-let dothis = () => {
-  console.log("DeezNuts")
-}
 
 function ModalForLic (props) {
   return (
@@ -26,7 +21,7 @@ function ModalForLic (props) {
         <p>We were the First Sign Company in Tallahassee to obtain a <span className="experpt">State License ES12000087</span>.</p> 
         <p> We qualified on 4/26/2002, which was well before the City of Tallahassee required sign contractors to obtain a state license.
             Don't be duped by other Sign Companies who aren't properly qualified.</p>
-            <img id="logoImgModal" src={require('./img/billsLogo.png')} alt='logo' />    
+            <img id="logoImgLic" src={require('./img/billsLogo.png')} alt='logo' />    
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide}>Close</Button>

@@ -81,6 +81,10 @@ a:link,a:visited {
   height: 80px;
   width: 125px;
 }
+#logoImgLic {
+  height: 100px;
+  width: 125px;
+}
 .mapComponent {
   width: 300px !important;
   height: 300px !important;
