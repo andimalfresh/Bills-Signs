@@ -141,7 +141,7 @@ const Land = () => {
                     </div>
                     </Jumbotron>
                     <Card className='d-flex justify-content-center bg-secondary text-white budgetCard'>
-                      <div>Get the most for your budget. Contact us today and speak to one of our industry leading experts. We specialize in creating the most effective product for each client.</div>
+                      <div className="blurbCard">Get the most for your budget. Contact us today and speak to one of our industry leading experts. We specialize in creating the most effective product for each client.</div>
                       <ul className="cardList">
                           <li>Daily Traffic</li>
                           <li>Best Type of Sign</li>
