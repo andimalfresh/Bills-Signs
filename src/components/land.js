@@ -78,11 +78,11 @@ const Land = () => {
                   />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src={require('./img/gallery/img4.jpg')}
-                    alt="Second slide"
-                  />
+                    <img
+                      className="d-block w-100"
+                      src={require('./img/gallery/img4.jpg')}
+                      alt="Second slide"
+                    />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
@@ -100,15 +100,15 @@ const Land = () => {
                 
               <div className="pageContent">
                 <Card className="blurbCard">
-                      <span className='redText'>Why should you use Bill's Signs for your sign partner?</span>
-                      <span className="redText"> We base our service on three core vaules.</span>
+                      <span className='redText'>Why should you use Bill's Signs as sign partner?</span>
+                      <span className="redText"> We base our service on three core values.</span>
                     <Accordion defaultActiveKey="0">
                             <Card>
                                 <Accordion.Toggle as={Card.Header} eventKey="1"  className="emphText">
                                     Quality:
                                 </Accordion.Toggle>
                                 <Accordion.Collapse eventKey="1">
-                                <Card.Body>
+                                <Card.Body className="cardText">
                                     Cheap signs can ruin your company's image.
                                     Our signs will create and maintain a standard of professionalism.
                                 </Card.Body>
@@ -119,7 +119,7 @@ const Land = () => {
                                     Experience:
                                 </Accordion.Toggle>
                                 <Accordion.Collapse eventKey="2">
-                                <Card.Body>
+                                <Card.Body className="cardText">
                                     Make an informed decision when buying your sign;
                                     40 Years of experience means we know how to help.
                                 </Card.Body>
@@ -130,7 +130,7 @@ const Land = () => {
                                   Dependability:
                                 </Accordion.Toggle>
                                 <Accordion.Collapse eventKey="3">
-                                <Card.Body>
+                                <Card.Body className="cardText">
                                   Our signs are built to last for years helping you get the most 
                                   ROI for your investment.
                                 </Card.Body>
@@ -140,7 +140,7 @@ const Land = () => {
                     </Card>
                     </div>
                     </Jumbotron>
-                    <Card className='d-flex justify-content-center budgetCard'>
+                    <Card className='d-flex justify-content-center bg-secondary text-white budgetCard'>
                       <div>Get the most for your budget. Contact us today and speak to one of our industry leading experts. We specialize in creating the most effective product for each client.</div>
                       <ul className="cardList">
                           <li>Daily Traffic</li>
@@ -156,7 +156,7 @@ const Land = () => {
 
                        
               
-                <img id="logoImgModal" src={require('./img/billsLogo.png')} alt='logo' />            
+                <div className="contentDiv"><img id="logoImgModal" src={require('./img/billsLogo.png')} alt='logo' /></div>            
                 <ul className='addressList'>
                     <li><a href="https://www.google.com/maps/place/Bill's+Signs+%26+Services+Inc/@30.43918,-84.372066,15z/data=!4m5!3m4!1s0x0:0xbee05e2b1418f560!8m2!3d30.43918!4d-84.372066">5765 Mandy Lane Tallahassee, Florida</a></li>
                     <li>850-576-6847 &#183; info@billssigns.com</li>

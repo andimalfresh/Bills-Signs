@@ -108,30 +108,9 @@ const Contact = () => {
                     <li><a href="mailto:info@billssigns.com">Maintenance</a></li>
                 </ul>
             </div>
-
-              {/* <Form>
-                <Form.Group controlId="formBasicEmail">
-                  <Form.Label>Email address</Form.Label>
-                  <Form.Control type="email" placeholder="Enter email" />
-                  <Form.Text className="text-muted">
-                    We'll never share your email with anyone else.
-                  </Form.Text>
-                </Form.Group>
-
-                <Form.Group controlId="formBasicPassword">
-                  <Form.Label>Password</Form.Label>
-                  <Form.Control type="password" placeholder="Password" />
-                </Form.Group>
-                <Form.Group controlId="formBasicCheckbox">
-                  <Form.Check type="checkbox" label="Check me out" />
-                </Form.Group>
-                <Button onClick={dothis()} variant="danger" type="submit">
-                  Submit
-                </Button>
-              </Form> */}
                           <a href="tel:850-576-6847"><Button variant="danger">Call Us Today</Button></a>
             </Jumbotron>
-            <img id="logoImgModal" src={require('./img/billsLogo.png')} alt='logo' />    
+            <div className="contentDiv"><img id="logoImgModal" src={require('./img/billsLogo.png')} alt='logo' /></div>    
             <ul className='addressList'>
                     <li>5765 Mandy Lane Tallahassee, Florida</li>
                     <li>850-576-6847 &#183; info@billssigns.com</li>

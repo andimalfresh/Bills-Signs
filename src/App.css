@@ -8,6 +8,9 @@
   justify-content: center;
   flex-direction: column;
 }
+.jumbotron {
+  margin-bottom:0rem !important;
+}
 .p-2 {
   padding: .0rem!important;
 }
@@ -21,10 +24,8 @@ ul {
 .pageContent {
   text-align:left;
   display: flex;
-  /* justify-content: center;  */
   flex-direction: column ;
   width: 100%;
-  padding: 10%;
 }
 .logoImg {
   height: 152px;
@@ -70,14 +71,20 @@ a:link,a:visited {
   padding-bottom: 25px;
   padding-top: 25px;
 }
+.cardList2 {
+  padding-top:25px;
+}
 .bbText {
   font-weight: bold;
 }
 .redText {
   color:#dc3545;
-  font-size: 18pt ;
-  font-weight: bold;
-  padding: 25px;
+  font-weight:bold;
+  font-size: 12pt ;
+  padding: 10px;
+}
+.cardText {
+  font-size: 12pt;
 }
 .modalDiv,.modalDivFlag {
   display: flex;
@@ -117,7 +124,6 @@ a:link,a:visited {
   padding-top:25px;
 }
 #logoImgModal {
-  /* margin-top: 25px; */
   height: 80px;
   width: 125px;
 }
