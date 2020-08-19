@@ -1,7 +1,7 @@
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Button from 'react-bootstrap/Button'
-import {Modal,Carousel} from 'react-bootstrap'
+import {Modal,Carousel,Card,Accordion} from 'react-bootstrap'
 import Nav from 'react-bootstrap/Nav'
 
 
@@ -54,12 +54,8 @@ const Land = () => {
                     <Nav.Link href='/contact' eventKey="link-2">Contact</Nav.Link>
                   </Nav.Item>
                 </Nav>
-            <Jumbotron>
-            <img className="logoImg" src={require('./img/billsLogo.png')} alt='logo' />
-                <h3>Family Owned and Operated since 1969</h3>
-
                 <div className='d-flex justify-content-center'>
-                <Carousel className='p-2 carouselPadding'>
+                <Carousel>
                   <Carousel.Item>
                   <img
                     className="d-block w-100"
@@ -97,40 +93,69 @@ const Land = () => {
                 </Carousel.Item>
               </Carousel>
               </div> 
+            <Jumbotron>
+            <img className="logoImg" src={require('./img/billsLogo.png')} alt='logo' />
+                <h3>Family Owned and Operated since 1969</h3>
 
-                    <span className='redText'>
-                        <b>Three important things to look for in your sign partner:</b>
-                    </span>
-                    
-                    <div className='emphText'>Quality:</div>
-                    <p> 
-                        Cheap signs can ruin your company's image.
-                        Our signs will create and maintain a positive image.
-                    </p>
-                    <div className='emphText'>Experience:</div>
-                    <p> 
-                        Make an informed decision when buying your sign;
-                        40 Years of experience means we know how to help.
-                    </p>
-                    <div className='emphText'>Dependability:</div>
-                    <p> 
-                        Our signs are backed with industry leading warranties.
-                        Get a great sign and peace of mind!
-                        How much do you spend per month on advertisement with meager results?
-                    </p>
-
-                    <ul className='blurb'><span className='emphText'>Get the most for your budget. Call us about:</span> 
-                        <li>Daily Traffic</li>
-                        <li>Best Type of Sign</li>
-                        <li>Effective Sign Design</li>
-                        <li>All Tailored for Your Specific Location</li>
-                    </ul>
+                
+              <div className="pageContent">
+                <Card className="blurbCard">
+                      <span className='redText'>Why should you use Bill's Signs for your sign partner?</span>
+                      <span className="redText"> We base our service on three core vaules.</span>
+                    <Accordion defaultActiveKey="0">
+                            <Card>
+                                <Accordion.Toggle as={Card.Header} eventKey="1"  className="emphText">
+                                    Quality:
+                                </Accordion.Toggle>
+                                <Accordion.Collapse eventKey="1">
+                                <Card.Body>
+                                    Cheap signs can ruin your company's image.
+                                    Our signs will create and maintain a standard of professionalism.
+                                </Card.Body>
+                                </Accordion.Collapse>
+                            </Card>
+                            <Card>
+                                <Accordion.Toggle as={Card.Header} eventKey="2"  className="emphText">
+                                    Experience:
+                                </Accordion.Toggle>
+                                <Accordion.Collapse eventKey="2">
+                                <Card.Body>
+                                    Make an informed decision when buying your sign;
+                                    40 Years of experience means we know how to help.
+                                </Card.Body>
+                                </Accordion.Collapse>
+                            </Card>
+                            <Card>
+                                <Accordion.Toggle as={Card.Header} eventKey="3"  className="emphText">
+                                  Dependability:
+                                </Accordion.Toggle>
+                                <Accordion.Collapse eventKey="3">
+                                <Card.Body>
+                                  Our signs are built to last for years helping you get the most 
+                                  ROI for your investment.
+                                </Card.Body>
+                                </Accordion.Collapse>
+                            </Card>
+                    </Accordion>
+                    </Card>
+                    </div>
+                    </Jumbotron>
+                    <Card className='d-flex justify-content-center budgetCard'>
+                      <div>Get the most for your budget. Contact us today and speak to one of our industry leading experts. We specialize in creating the most effective product for each client.</div>
+                      <ul className="cardList">
+                          <li>Daily Traffic</li>
+                          <li>Best Type of Sign</li>
+                          <li>Effective Sign Design</li>
+                          <li>Tailoring for Your Specific Location</li>
+                      </ul>
+                      <a href="tel:850-576-6847"><Button variant="danger" className='callButton'>Call Us Today</Button></a>
+                    </Card>
                     
                       
                     
-                        <a href="tel:850-576-6847"><Button variant="danger" className='callButton'>Call Us Today</Button></a>
+
                        
-                </Jumbotron>
+              
                 <img id="logoImgModal" src={require('./img/billsLogo.png')} alt='logo' />            
                 <ul className='addressList'>
                     <li><a href="https://www.google.com/maps/place/Bill's+Signs+%26+Services+Inc/@30.43918,-84.372066,15z/data=!4m5!3m4!1s0x0:0xbee05e2b1418f560!8m2!3d30.43918!4d-84.372066">5765 Mandy Lane Tallahassee, Florida</a></li>

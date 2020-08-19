@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav'
-import { Jumbotron,Button,Modal} from 'react-bootstrap'
+import { Jumbotron,Button,Modal,Carousel} from 'react-bootstrap'
 import { Helmet } from 'react-helmet'
 
 function ModalForLic (props) {
@@ -52,20 +52,59 @@ const Contact = () => {
                   <Nav.Link href='/contact'>Contact</Nav.Link>
                 </Nav.Item>
             </Nav>
+            <div className='d-flex justify-content-center'>
+                <Carousel>
+                  <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={require('./img/gallery/img1.jpg')}
+                    alt="First slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={require('./img/gallery/img2.jpg')}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={require('./img/gallery/img3.jpg')}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={require('./img/gallery/img4.jpg')}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src={require('./img/gallery/img5.jpg')}
+                    alt="Second slide"
+                  />
+                </Carousel.Item>
+              </Carousel>
+              </div> 
             <Jumbotron>
             <div className="contentDiv">
             <img className="logoImg" src={require('./img/billsLogo.png')} alt='logo' />
              <h1>Contact Us</h1>
-             <div className="blurb">We would love to hear from you! Click on any of the names in <b>bold black</b> lettering below to send us an email.</div>
-                <ul><span className="redText">Sales:</span>
+             <h5>We would love to hear from you! Click on any of the names or departments below to send us an email.</h5>
+                <ul><a href="mailto:info@billssigns.com"><span className="redText">Sales:</span></a>
                     <li><a variant='blk' href="mailto:bruce@billssigns.com">Bruce Screws</a></li>
                     <li><a href="mailto:wayne@billssigns.com">Wayne Funderburke</a></li>
                     <li><a href="mailto:info@billssigns.com">General Inquiries</a></li>
                 </ul>
-                <ul><span className="redText">Art Department:</span>
+                <ul><a href="mailto:art@billssigns.com"><span className="redText">Art Department:</span></a>
                     <li><a href="mailto:art@billssigns.com">General Inquiries</a></li>
                 </ul>    
-                <ul><span className="redText">Maintenance:</span>
+                <ul><a href="mailto:info@billssigns.com"><span className="redText">Maintenance:</span></a>
                     <li><a href="mailto:info@billssigns.com">Maintenance</a></li>
                 </ul>
             </div>
