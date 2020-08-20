@@ -8,11 +8,26 @@
   justify-content: center;
   flex-direction: column;
 }
+.nav-pills .pill-1 .nav-link:not(.active) {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.nav-pills .pill-2 .nav-link:not(.active) {
+  background-color: rgba(0, 250, 0, 0.5);
+}
+
+.nav-pills .pill-3 .nav-link:not(.active) {
+  background-color: rgba(0, 0, 250, 0.5);
+  color: white;
+}
 .jumbotron {
   margin-bottom:0rem !important;
 }
 .p-2 {
-  padding: .0rem!important;
+  /* padding: .0rem!important; */
+}
+.activeTab {
+  background-color: #dc3545 !important;
 }
 ul {
   padding: 0em;
@@ -40,8 +55,9 @@ ul {
 .carousel {
   height: auto;
   width: 100%;
+  padding-bottom:25px
 }
-.addressList,.servicesList {
+.addressList,.servicesList,.since1969 {
   padding-top:25px;
   padding-bottom:25px;
 }
@@ -59,6 +75,13 @@ a:link,a:visited {
 .contentDiv {
   padding-top:25px;
 }
+.contentDiv2 {
+  padding-bottom:25px;
+}
+.contentDiv2Left {
+  text-align:left;
+  padding-bottom:25px;
+}
 .smallTitle {
   padding-left: 15px;
 }
@@ -72,7 +95,7 @@ ul.cardList {
   text-align: left;
 }
 .cardList {
-  text-align: left;
+  text-align: center;
   padding-bottom: 25px;
   padding-top: 25px;
 }
@@ -87,6 +110,10 @@ ul.cardList {
   font-weight:bold;
   font-size: 12pt ;
   padding: 10px;
+}
+.redText2 {
+  color:#dc3545;
+  font-size: 12pt ;
 }
 .cardText {
   font-size: 12pt;
@@ -112,18 +139,11 @@ ul.cardList {
   font-size: 16pt;
   padding-bottom:25px;
 }
-.blurbCard {
+.blurbCard, .budgetCard {
   display:flex;
+  flex-direction: column;
   justify-content: center;
   text-align: left;
-  font-size: 16pt;
-  padding: 25px;
-}
-.budgetCard {
-  display:flex;
-  text-align: left;
-  font-size: 16pt;
-  justify-content: center;
   font-size: 16pt;
   padding: 25px;
 }
@@ -145,8 +165,21 @@ ul.cardList {
 .largeNav {
   display:none;
 }
+.centerInDiv {
+  display: flex;
+  justify-content: center;
+}
 modal-backdrop { background-color: red; }
 @media only screen and (min-width: 768px) {
+
+  .pageContent {
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 100%;
+  }
+
 .logoImg {
     width: 500px;
     height: 304px;
@@ -168,5 +201,11 @@ modal-backdrop { background-color: red; }
   .modalDiv img {
     height: 720px;
     width: 600px;
+  }
+  .blurbCard, .budgetCard {
+    width:100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    flex-direction: column;
   }
 }
