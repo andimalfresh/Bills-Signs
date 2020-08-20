@@ -45,7 +45,7 @@ const Contact = () => {
                 </Card>
             </div>
             <div className="contentDiv">
-                          <a href="tel:850-576-6847"><Button className="cardList2"variant="danger">Call Us Today</Button></a>
+                          <a href="tel:850-576-6847"><Button variant="danger">Call Us Today</Button></a>
             </div>
             </Jumbotron>
         </div>
