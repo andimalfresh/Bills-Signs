@@ -22,6 +22,9 @@ const Contact = () => {
                 <Nav.Item>
                   <Nav.Link href='/contact' className="activeTab">Contact</Nav.Link>
                 </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link href='/blog' eventKey="link-3">Blog</Nav.Link>
+                </Nav.Item>
             </Nav>
 
             <Jumbotron>

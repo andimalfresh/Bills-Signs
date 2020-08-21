@@ -18,6 +18,9 @@ const Land = () => {
                   <Nav.Item>
                     <Nav.Link href='/contact' eventKey="link-2">Contact</Nav.Link>
                   </Nav.Item>
+                  <Nav.Item>
+                  <Nav.Link href='/blog' eventKey="link-3">Blog</Nav.Link>
+                </Nav.Item>
                 </Nav>
             <Jumbotron>
             <div className="contentDiv">

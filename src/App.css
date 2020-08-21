@@ -160,7 +160,32 @@ ul.cardList {
   display: flex;
   justify-content: center;
 }
-modal-backdrop { background-color: red; }
+.blog {
+  padding-bottom:50px;
+}
+.blogTitle {
+  font-size: 14pt;
+  font-weight: bold;
+}
+.blogDate {
+  font-size: 10pt;
+  font-style: italic;
+  padding-bottom:10px;
+}
+.blogBody {
+  padding-top: 20px;
+  font-size: 12pt;
+}
+.blogImage {
+  height:300px;
+  width:300px;
+}
+@media only screen and (max-width:375px) {
+
+.jumbotron {
+  padding: 0px !important;
+}
+}
 @media only screen and (min-width: 768px) {
 
   .pageContent {
@@ -198,5 +223,13 @@ modal-backdrop { background-color: red; }
     padding-left: 15%;
     padding-right: 15%;
     flex-direction: column;
+  }
+  .blogImage {
+    float: left;
+    margin-right: 20px;
+  }
+  .blogBody {
+  padding-top:0px;
+  font-size: 12pt;
   }
 }

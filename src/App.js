@@ -7,6 +7,7 @@ import Foot from './components/foot'
 import Land from'./components/land'
 import Navi from './components/navi'
 import Services from './components/services'
+import Blog from './components/blog'
 import  {
   BrowserRouter as Router,
   Switch,
@@ -34,6 +35,9 @@ class App extends Component {
             </Route>
             <Route path='/contact'>
               <Contact />
+            </Route>
+            <Route path='/blog'>
+              <Blog />
             </Route>
           </Switch>
         </Router>

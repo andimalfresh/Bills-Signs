@@ -22,6 +22,7 @@ const Navi = () => {
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/services">Services</Nav.Link>
                         <Nav.Link href="/contact">Contact</Nav.Link>
+                        <Nav.Link href="/blog">Blog</Nav.Link>
                     </Nav>
             </Navbar.Collapse>
         </Navbar>
