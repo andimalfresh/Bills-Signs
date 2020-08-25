@@ -115,13 +115,25 @@ ul.cardList {
   align-items: center;
   flex-direction: column;
 }
-.modalDiv img {
+ .modalDiv img {
   height: 337px;
-  width: 295px;
-}
+  width: 422px;
+} 
+.modalDivFlag img {
+  height: 460px;
+  width: 300px;
+} 
 .modalDiv img,.modalDivFlag img {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.modalDivFlag.card-body .modalDiv.card-body {
+  padding:0px;
+}
+.carouselDivForCard {
+  display: flex;
+  justify-content: center !important;
+  width: 100%
 }
 .blurb {
   display:flex;
@@ -214,10 +226,17 @@ ul.cardList {
   .largeNav {
     display:inline;
   }
-  .modalDiv img {
-    height: 720px;
-    width: 600px;
+  /* .modalDiv img{
+    height: 674px !important;
+    width: 844px !important;
   }
+  .modalDivFlag img {
+  height: 100;
+  width: 100px;
+} */
+  .modalDivFlag.card-body , .modalDiv.card-body {
+  padding:0px;
+}
   .blurbCard, .budgetCard {
     width:100%;
     padding-left: 15%;
