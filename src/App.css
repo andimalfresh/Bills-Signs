@@ -93,6 +93,9 @@ ul.cardList {
 .cardList2 {
   padding-top:25px;
 }
+.cardList3 {
+  padding-bottom:25px;
+}
 .bbText {
   font-weight: bold;
 }
@@ -200,6 +203,13 @@ ul.cardList {
   height:300px;
   width:300px;
 }
+.contactCard {
+  display:flex;
+  justify-content: left;
+  text-align: left;
+  font-size: 16pt;
+  padding:25px;  
+}
 @media only screen and (max-width:375px) {
 
 .jumbotron {
@@ -219,7 +229,13 @@ ul.cardList {
     height: 600px;
     width: 600px
   }
-
+.contactCard {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 16pt;
+    padding-bottom:25px;  
+}
 .logoImg {
     width: 500px;
     height: 304px;

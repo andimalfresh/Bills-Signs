@@ -90,7 +90,7 @@ const Services = () => {
                     <Accordion.Toggle as={Card.Header} eventKey="1">
                         Flag Poles
                     </Accordion.Toggle>
-                    <Accordion.Collapse eventKey="2">
+                    <Accordion.Collapse eventKey="1">
                     <Card.Body>
                    <div className='d-flex justify-content-center'>
                           <Carousel className="sliderContainer">
@@ -132,34 +132,33 @@ const Services = () => {
                     </Card.Body>
                     </Accordion.Collapse>
                 </Card>
-                {/* <Card>
+                <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="3">
                         Channel Letters
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="3">
                     <Card.Body>
-                    <div className='modalDiv justify-content-center
-                    '>
-                         <Carousel className='modalDiv'>
-                            <Carousel.Item>
+                   <div className='d-flex justify-content-center'>
+                          <Carousel className="sliderContainer">
+                            <Carousel.Item >
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/channel/img1.jpg')} alt="This is a Channel Letter Sign Example #1"/>
+                                className="sliderContainer"
+                                src={require('./img/channel/img1.jpg')} alt="This is a Channel LetterExample #1" />
                             </Carousel.Item>
-                            <Carousel.Item>
+                            <Carousel.Item >
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/channel/img2.jpg')} alt="This is a Channel Letter Sign Example #2"/>
+                                className="sliderContainer"
+                                src={require('./img/channel/img2.jpg')} alt="This is a Channel Letter Example #2"/>
                             </Carousel.Item>
-                            <Carousel.Item>
+                            <Carousel.Item >
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/channel/img3.jpg')} alt="This is a Channel Letter Sign Example #3"/>
+                                className="sliderContainer"
+                                src={require('./img/channel/img3.jpg')} alt="This is a Channel Letter Example #3"/>
                             </Carousel.Item>
-                            <Carousel.Item>
+                            <Carousel.Item >
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/channel/img4.jpg')} alt="This is a Channel Letter Sign Example #4"/>
+                                className="sliderContainer"
+                                src={require('./img/channel/img4.jpg')} alt="This is a Channel Letter Example #4"/>
                             </Carousel.Item>
                         </Carousel>
                     </div>
@@ -172,23 +171,22 @@ const Services = () => {
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="4">
                     <Card.Body>
-                    <div className='modalDiv justify-content-center
-                    '>
-                      <Carousel className='modalDiv'>
-                            <Carousel.Item>
+                   <div className='d-flex justify-content-center'>
+                          <Carousel className="sliderContainer">
+                            <Carousel.Item >
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/electronic/img1.jpg')} alt="This is a Electronic Message Sign Example #1" />
+                                className="sliderContainer"
+                                src={require('./img/electronic/img1.jpg')} alt="This is a Electronic LetterExample #1" />
                             </Carousel.Item>
-                            <Carousel.Item>
+                            <Carousel.Item >
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/electronic/img2.jpg')} alt="This is a Electronic Message Sign Example #2" />
+                                className="sliderContainer"
+                                src={require('./img/electronic/img2.jpg')} alt="This is a Electronic Letter Example #2"/>
                             </Carousel.Item>
-                            <Carousel.Item>
+                            <Carousel.Item >
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/electronic/img3.jpg')} alt="This is a Electronic Message Sign Example #3" />
+                                className="sliderContainer"
+                                src={require('./img/electronic/img3.jpg')} alt="This is a Electronic Letter Example #3"/>
                             </Carousel.Item>
                         </Carousel>
                     </div>
@@ -201,23 +199,22 @@ const Services = () => {
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="5">
                     <Card.Body>
-                    <div className='modalDiv justify-content-center
-                    '>
-                        <Carousel className='modalDiv'>
-                            <Carousel.Item>
+                   <div className='d-flex justify-content-center'>
+                          <Carousel className="sliderContainer">
+                            <Carousel.Item >
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/pole/img1.jpg')} alt="This is a Pole Sign, Example #1" />
+                                className="sliderContainer"
+                                src={require('./img/pole/img1.jpg')} alt="This is a pole sign Example #1" />
                             </Carousel.Item>
-                            <Carousel.Item>
+                            <Carousel.Item >
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/pole/img2.jpg')} alt="This is a Pole Sign, Example #2" />
+                                className="sliderContainer"
+                                src={require('./img/pole/img2.jpg')} alt="This is a pole sign Example #2"/>
                             </Carousel.Item>
-                            <Carousel.Item>
+                            <Carousel.Item >
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/pole/img3.jpg')} alt="This is a Pole Sign, Example #3" />
+                                className="sliderContainer"
+                                src={require('./img/pole/img3.jpg')} alt="This is a pole sign Example #3"/>
                             </Carousel.Item>
                         </Carousel>
                     </div>
@@ -230,47 +227,22 @@ const Services = () => {
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="6">
                     <Card.Body>
-                    <div className='modalDiv justify-content-center
-                    Flag'>
-                        <Carousel className='modalDiv'>
-                            <Carousel.Item>
+                   <div className='d-flex justify-content-center'>
+                          <Carousel className="sliderContainer">
+                            <Carousel.Item >
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/wall/img1.jpg')} alt="This is a Wall Sign, Example #1" />
+                                className="sliderContainer"
+                                src={require('./img/wall/img1.jpg')} alt="This is a Wall sign Example #1" />
                             </Carousel.Item>
-                            <Carousel.Item>
+                            <Carousel.Item >
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/wall/img2.jpg')} alt="This is a Wall Sign, Example #2" />
+                                className="sliderContainer"
+                                src={require('./img/wall/img2.jpg')} alt="This is a Wall sign Example #2"/>
                             </Carousel.Item>
-                            <Carousel.Item>
+                            <Carousel.Item >
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/wall/img3.jpg')} alt="This is a Wall Sign, Example #3"/>
-                            </Carousel.Item>
-                        </Carousel>
-                   </div>
-                    </Card.Body>
-                    </Accordion.Collapse>
-                </Card>
-                <Card>
-                    <Accordion.Toggle as={Card.Header} eventKey="7">
-                        Monmument Signs
-                    </Accordion.Toggle>
-                    <Accordion.Collapse eventKey="7">
-                    <Card.Body>
-                    <div className='modalDiv justify-content-center
-                    '>
-                        <Carousel className='modalDiv'>
-                            <Carousel.Item>
-                                <img
-                                className="d-block w-100"
-                                src={require('./img/monument/img1.jpg')} alt="This is a Monument Sign, Example #1" />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img
-                                className="d-block w-100"
-                                src={require('./img/monument/img2.jpg')} alt="This is a Monument Sign, Example #2" />
+                                className="sliderContainer"
+                                src={require('./img/wall/img3.jpg')} alt="This is a Wall sign Example #3"/>
                             </Carousel.Item>
                         </Carousel>
                     </div>
@@ -278,28 +250,93 @@ const Services = () => {
                     </Accordion.Collapse>
                 </Card>
                 <Card>
+                    <Accordion.Toggle as={Card.Header} eventKey="7">
+                        Monument Signs
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="7">
+                    <Card.Body>
+                   <div className='d-flex justify-content-center'>
+                          <Carousel className="sliderContainer">
+                            <Carousel.Item >
+                                <img
+                                className="sliderContainer"
+                                src={require('./img/monument/img1.jpg')} alt="This is a monument sign Example #1" />
+                            </Carousel.Item>
+                            <Carousel.Item >
+                                <img
+                                className="sliderContainer"
+                                src={require('./img/monument/img2.jpg')} alt="This is a monument sign Example #2"/>
+                            </Carousel.Item>
+                        </Carousel>
+                    </div>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+
+                <Card>
+                    <Accordion.Toggle as={Card.Header} eventKey="13">
+                        Pylon Signs
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="13">
+                    <Card.Body>
+                   <div className='d-flex justify-content-center'>
+                          <Carousel className="sliderContainer">
+                            <Carousel.Item >
+                                <img
+                                className="sliderContainer"
+                                src={require('./img/pylon/img1.jpg')} alt="This is a Pylon Signs Example #1" />
+                            </Carousel.Item>
+                            <Carousel.Item >
+                                <img
+                                className="sliderContainer"
+                                src={require('./img/pylon/img2.jpg')} alt="This is a Pylon Signs Example #2"/>
+                            </Carousel.Item>
+                        </Carousel>
+                    </div>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+
+                <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="8">
                         Plaques
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="8">
                     <Card.Body>
-                    <div className='modalDiv justify-content-center
-                    '>
-                        <Carousel className='modalDiv'>
-                            <Carousel.Item>
+                   <div className='d-flex justify-content-center'>
+                          <Carousel className="sliderContainer">
+                            <Carousel.Item >
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/plaques/img1.jpg')} alt="This is a Plaque, Example #1" />
+                                className="sliderContainer"
+                                src={require('./img/plaques/img1.jpg')} alt="This is a Plaque Example #1" />
+                            </Carousel.Item>
+                            <Carousel.Item >
+                                <img
+                                className="sliderContainer"
+                                src={require('./img/plaques/img2.jpg')} alt="This is a Plaque Example #2"/>
+                            </Carousel.Item>
+                        </Carousel>
+                    </div>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                <Card>
+                    <Accordion.Toggle as={Card.Header} eventKey="9">
+                        Way Finding/Drive Thru Signs
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="9">
+                    <Card.Body>
+                   <div className='d-flex justify-content-center'>
+                          <Carousel className="sliderContainer">
+                            <Carousel.Item >
+                                <img
+                                className="sliderContainer"
+                                src={require('./img/way/img1.jpg')} alt="This is a Drive Thru Example #1" />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/plaques/img2.jpg')} alt="This is a Plaque, Example #2"/>
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img
-                                className="d-block w-100"
-                                src={require('./img/plaques/img3.jpg')}alt="This is a Plaque, Example #3" />
+                                className="sliderContainer"
+                                src={require('./img/way/img2.jpg')} alt="This is a Drive Thru Example #2"/>
                             </Carousel.Item>
                         </Carousel>
                     </div>
@@ -308,22 +345,21 @@ const Services = () => {
                 </Card>
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="10">
-                        Way Finding/Drive Thru Signs
+                        Shopping Center Signs
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="10">
                     <Card.Body>
-                    <div className='modalDiv justify-content-center
-                    '>
-                      <Carousel className='modalDiv'>
-                            <Carousel.Item>
+                   <div className='d-flex justify-content-center'>
+                          <Carousel className="sliderContainer">
+                            <Carousel.Item >
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/way/img1.jpg')} alt="This is a Way Finding Example #1"/>
+                                className="sliderContainer"
+                                src={require('./img/tenantshopping/img1.jpg')} alt="This is a Shopping Center Example #1" />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/way/img2.jpg')} alt="This is a Way Finding Example #2"/>
+                                className="sliderContainer"
+                                src={require('./img/tenantshopping/img2.jpg')} alt="This is a Shopping Center Example #2"/>
                             </Carousel.Item>
                         </Carousel>
                     </div>
@@ -332,27 +368,21 @@ const Services = () => {
                 </Card>
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="11">
-                        Shopping Center Signs
+                        Tenant Signs
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="11">
                     <Card.Body>
-                    <div className='modalDiv justify-content-center
-                    '>
-                        <Carousel className='modalDiv'>
-                            <Carousel.Item>
+                   <div className='d-flex justify-content-center'>
+                          <Carousel className="sliderContainer">
+                            <Carousel.Item >
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/tenantshopping/img1.jpg')} alt="This is a Shopping Center Sign, Example #1" />
+                                className="sliderContainer"
+                                src={require('./img/tenantshopping/img1.jpg')} alt="This is a Tenant Signs Example #1" />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/tenantshopping/img2.jpg')} alt="This is a Shopping Center Sign, Example #2" />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img
-                                className="d-block w-100"
-                                src={require('./img/tenantshopping/img3.jpg')} alt="This is a Shopping Center Sign, Example #3" />
+                                className="sliderContainer"
+                                src={require('./img/tenantshopping/img2.jpg')} alt="This is a Tenant Signs Example #2"/>
                             </Carousel.Item>
                         </Carousel>
                     </div>
@@ -361,64 +391,29 @@ const Services = () => {
                 </Card>
                 <Card>
                     <Accordion.Toggle as={Card.Header} eventKey="12">
-                        Tenant Signs
+                        Vinyl Signs
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="12">
                     <Card.Body>
-                    <div className='modalDiv justify-content-center
-                    '>
-                          <Carousel className='modalDiv'>
-                            <Carousel.Item>
+                   <div className='d-flex justify-content-center'>
+                          <Carousel className="sliderContainer">
+                            <Carousel.Item >
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/tenantshopping/img1.jpg')} alt="This is a Tenant Sign, Example #1" />
+                                className="sliderContainer"
+                                src={require('./img/vinyl/img1.jpg')} alt="This is a Vinyl Signs Example #1" />
                             </Carousel.Item>
                             <Carousel.Item>
                                 <img
-                                className="d-block w-100"
-                                src={require('./img/tenantshopping/img2.jpg')} alt="This is a Tenant Sign, Example #2" />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img
-                                className="d-block w-100"
-                                src={require('./img/tenantshopping/img3.jpg')} alt="This is a Tenant Sign, Example #3"/>
+                                className="sliderContainer"
+                                src={require('./img/vinyl/img2.jpg')} alt="This is a Vinyl Signs Example #2"/>
                             </Carousel.Item>
                         </Carousel>
                     </div>
                     </Card.Body>
                     </Accordion.Collapse>
                 </Card>
-                <Card>
-                    <Accordion.Toggle as={Card.Header} eventKey="13">
-                        Vinyl Lettering
-                    </Accordion.Toggle>
-                    <Accordion.Collapse eventKey="13">
-                    <Card.Body>
-                    <div className='modalDiv justify-content-center
-                    Flag'>
-                        <Carousel className='modalDiv'>
-                            <Carousel.Item>
-                                <img
-                                className="d-block w-100"
-                                src={require('./img/vinyl/img1.jpg')} alt="This is a Vinyl Sign, Example #1" />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img
-                                className="d-block w-100"
-                                src={require('./img/vinyl/img2.jpg')} alt="This is a Vinyl Sign, Example #2" />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img
-                                className="d-block w-100"
-                                src={require('./img/vinyl/img3.jpg')} alt="This is a Vinyl Sign, Example #3"/>
-                            </Carousel.Item>
-                        </Carousel>
-                    </div>
-                    </Card.Body>
-                    </Accordion.Collapse>
-                </Card>*/}
             </Accordion> 
-              <div className="cardList2"><a href="tel:850-576-6847"><Button variant="danger">Call Us Today</Button></a></div>
+              <div className="contentDiv contentDiv2"><a href="tel:850-576-6847"><Button variant="danger">Call Us Today</Button></a></div>
             </Jumbotron>
         </div>
     )

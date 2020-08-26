@@ -33,7 +33,7 @@ const Contact = () => {
               <div className="contentDiv2"><h1>Contact Us</h1>
                 <span className="redText">We would love to hear from you!</span>
               </div>
-                <Card className="blurbCard">
+                <Card className="contactCard">
                 <ul><a href="mailto:info@billssigns.com"><span className="redText2">Sales:</span></a>
                     <li><a variant='blk' href="mailto:bruce@billssigns.com">✉ Bruce Screws</a></li>
                     <li><a href="mailto:wayne@billssigns.com">✉ Wayne Funderburke</a></li>
