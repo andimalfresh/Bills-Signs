@@ -42,7 +42,7 @@ const Services = () => {
                             <li>• Installation • Service and Maintenance  •</li>
                             <li>• Warranty •</li>
                         </ul>
-                        <div className='d-flex justify-content-center'>
+                <div className='d-flex justify-content-center'>
                 <Carousel>
                   <Carousel.Item>
                   <img
@@ -90,24 +90,22 @@ const Services = () => {
                     <Accordion.Toggle as={Card.Header} eventKey="1">
                         Flag Poles
                     </Accordion.Toggle>
-                    <Accordion.Collapse eventKey="1">
-                    <Card.Body className='modalDivFlag'>
-                      <div className="carouselDivForCard">
-                        <Carousel>
-                            <Carousel.Item>
+                    <Accordion.Collapse eventKey="2">
+                    <Card.Body>
+                   <div className='d-flex justify-content-center'>
+                          <Carousel className="sliderContainer">
+                            <Carousel.Item >
                                 <img
-                                src={require('./img/flag/img1.jpg')}
-                                alt="This is a Flag Pole Example #1"
-                                />
+                                className="sliderContainer"
+                                src={require('./img/flag/img1.jpg')} alt="This is a flag Example #1" />
                             </Carousel.Item>
                             <Carousel.Item >
                                 <img
-                                src={require('./img/flag/img2.jpg')}
-                                alt="This is a Flag Pole Example #2"
-                                />
+                                className="sliderContainer"
+                                src={require('./img/flag/img2.jpg')} alt="This is a flag Example #2"/>
                             </Carousel.Item>
                         </Carousel>
-                      </div>
+                    </div>
                     </Card.Body>
                     </Accordion.Collapse>
                 </Card>
@@ -116,15 +114,17 @@ const Services = () => {
                         Lighted Signs
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="2">
-                    <Card.Body className='modalDiv'>
-                    <div className="carouselDivForCard">
-                          <Carousel>
-                            <Carousel.Item>
+                    <Card.Body>
+                   <div className='d-flex justify-content-center'>
+                          <Carousel className="sliderContainer">
+                            <Carousel.Item >
                                 <img
+                                className="sliderContainer"
                                 src={require('./img/lighted/img1.jpg')} alt="This is a Lighted Sign Example #1" />
                             </Carousel.Item>
-                            <Carousel.Item>
+                            <Carousel.Item >
                                 <img
+                                className="sliderContainer"
                                 src={require('./img/lighted/img2.jpg')} alt="This is a Lighted Sign Example #2"/>
                             </Carousel.Item>
                         </Carousel>

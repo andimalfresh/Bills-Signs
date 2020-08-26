@@ -109,15 +109,15 @@ ul.cardList {
 .cardText {
   font-size: 12pt;
 }
-.modalDiv,.modalDivFlag {
+/* .modalDiv,.modalDivFlag {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
- .modalDiv img {
-  height: 337px;
-  width: 422px;
+} */
+ /* .modalDiv img {
+  height: 330px;
+  width: 360px;
 } 
 .modalDivFlag img {
   height: 460px;
@@ -128,12 +128,20 @@ ul.cardList {
   padding-bottom: 15px;
 }
 .modalDivFlag.card-body .modalDiv.card-body {
+  width: 330px;
   padding:0px;
 }
 .carouselDivForCard {
   display: flex;
   justify-content: center !important;
   width: 100%
+} */
+.sliderContainer {
+  height: 300px ;
+  width: 300px ;
+}
+.carousel-item, .carousel-item.active {
+  align-items:center;
 }
 .blurb {
   display:flex;
@@ -162,7 +170,7 @@ ul.cardList {
   width: 125px;
 }
 .mapComponent {
-  width: 300px !important;
+  width: 300px !important ;
   height: 300px !important;
 }
 .largeNav {
@@ -207,6 +215,10 @@ ul.cardList {
     justify-content: center;
     width: 100%;
   }
+  .sliderContainer {
+    height: 600px;
+    width: 600px
+  }
 
 .logoImg {
     width: 500px;
@@ -234,8 +246,11 @@ ul.cardList {
   height: 100;
   width: 100px;
 } */
-  .modalDivFlag.card-body , .modalDiv.card-body {
+  /* .modalDivFlag.card-body , .modalDiv.card-body {
   padding:0px;
+} */
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: #dc3545 !important;
 }
   .blurbCard, .budgetCard {
     width:100%;
