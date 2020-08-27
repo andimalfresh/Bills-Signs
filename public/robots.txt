@@ -1,3 +1,7 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://www.billssigns.com/pagessitemap.xml
+Sitemap: https://www.billssigns.com/rootsitemap.xml
+Sitemap: https://www.billssigns.com/blogpagessitemap.xml
