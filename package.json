@@ -26,7 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sitemap": "/src/sitemap-generator.js"
+    "sitemap": "babel-node ../src/sitemap-generator.js"
   },
   "eslintConfig": {
     "extends": "react-app"
