@@ -10,23 +10,23 @@ const Land = () => {
       <div>   
                 <Nav fill variant="pills" defaultActiveKey="/">
                   <Nav.Item>
-                    <Nav.Link href="/" className="activeTab">Home</Nav.Link>
+                    <Nav.Link href="/" className="activeTab">HOME</Nav.Link>
                   </Nav.Item>
                   <Nav.Item variant="danger">
-                    <Nav.Link href="/services" eventKey="link-1">Services</Nav.Link>
+                    <Nav.Link href="/services" eventKey="link-1">SERVICES</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link href='/contact' eventKey="link-2">Contact</Nav.Link>
+                    <Nav.Link href='/contact' eventKey="link-2">CONTACT</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                  <Nav.Link href='/blog' eventKey="link-3">Blog</Nav.Link>
+                  <Nav.Link href='/blog' eventKey="link-3">BLOG</Nav.Link>
                 </Nav.Item>
                 </Nav>
             <Jumbotron>
             <div className="contentDiv">
             <img className="logoImg" src={require('./img/billsLogo.png')} alt='logo' />
-            <h1>Family Owned and Operated</h1>
-                <span className="redText">Since 1969</span>
+            <h3>FAMILY OWNED AND OPERATED</h3>
+                <span className="redText">SINCE 1969</span>
                 <div className='d-flex justify-content-center contentDiv'>
                 <Carousel>
                   <Carousel.Item>
@@ -69,57 +69,69 @@ const Land = () => {
                 
               <div className="pageContent">
                 <Card className="blurbCard">
-                      <span className='redText'>Why should you use Bill's Signs as sign partner?</span>
-                      <span className="redText"> We base our service on three core values.</span>
-                    <Accordion defaultActiveKey="0">
-                            <Card>
-                                <Accordion.Toggle as={Card.Header} eventKey="1"  className="emphText">
-                                    Quality:
+                      <span className="emphText"> WE BASE OUR SERVICE ON THREE CORE VALUES.</span>
+                      <span className="empthText">Click the buttons below to see why should you use Bill's Signs as your next sign partner.</span>
+
+                    <Accordion defaultActiveKey="0" className="toggleButton">
+                            <div className="contentDiv">
+                            <style type="text/css">
+                            {`
+                            .btn-flat {
+                              background-color: purple;
+                              color: white;
+                            }
+                            `}
+                            </style>
+                                <Accordion.Toggle variant='flat' as={Card.Header} eventKey="1"  className="emphText toggleButton">
+                                    QUALITY:
                                 </Accordion.Toggle>
                                 <Accordion.Collapse eventKey="1">
-                                <Card.Body className="cardText">
+                                <div className="cardText">
                                     Cheap signs can ruin your company's image.
                                     Our signs will create and maintain a standard of professionalism.
-                                </Card.Body>
+                                </div>
                                 </Accordion.Collapse>
-                            </Card>
-                            <Card>
+                            </div>
+                            <div className="contentDiv">
                                 <Accordion.Toggle as={Card.Header} eventKey="2"  className="emphText">
-                                    Experience:
+                                    EXPERIENCE:
                                 </Accordion.Toggle>
                                 <Accordion.Collapse eventKey="2">
-                                <Card.Body className="cardText">
+                                <div className="cardText">
                                     Make an informed decision when buying your sign;
                                     40 Years of experience means we know how to help.
-                                </Card.Body>
+                                </div>
                                 </Accordion.Collapse>
-                            </Card>
-                            <Card>
-                                <Accordion.Toggle as={Card.Header} eventKey="3"  className="emphText">
-                                  Dependability:
+                            </div>
+                            <div className="contentDiv">
+                                <Accordion.Toggle as={Card.Header} variant="danger" eventKey="3"  className="emphText">
+                                  DEPENDABILITY:
                                 </Accordion.Toggle>
                                 <Accordion.Collapse eventKey="3">
-                                <Card.Body className="cardText">
+                                <div className="cardText">
                                   Our signs are built to last for years helping you get the most 
                                   ROI for your investment.
-                                </Card.Body>
+                                </div>
                                 </Accordion.Collapse>
-                            </Card>
+                            </div>
                     </Accordion>
-                    </Card>
-                    </div></div>
-                    </Jumbotron>
-                    <Card className='d-flex justify-content-center bg-secondary text-white budgetCard'>
-                      <div className="blurbCard">Get the most for your budget. Contact us today and speak to one of our industry leading experts. We specialize in creating the most effective product for each client.
+                  </Card>
+                  <Card className='d-flex justify-content-center bg-secondary text-white budgetCard'>
+                      <div className="blurbCard">We specialize in creating the most effective product for each client. Contact us today and speak to one of our industry leading experts for information on:
                       <ul className="cardList">
-                          <li>Daily Traffic</li>
+                          <li>Daily Traffic Impressions</li>
                           <li>Best Type of Sign</li>
                           <li>Effective Sign Design</li>
                           <li>Tailoring for Your Specific Location</li>
                       </ul>
-                      <a href="tel:850-576-6847" className="centerInDiv"><Button variant="danger" className='callButton'>Call Us Today</Button></a>
                       </div>
                     </Card>
+                  </div>
+                  <a href="tel:850-576-6847" className="centerInDiv contentDiv"><Button variant="danger" className='callButton'>Call Us Today</Button></a>
+                  </div>
+                  </Jumbotron>
+
+
                     
         </div>
         

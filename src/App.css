@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 img {
-  border-radius: 25px;
+  border-radius: 15px;
 }
 .App {
   text-align: center;
@@ -16,9 +16,6 @@ img {
 }
 .jumbotron {
   margin-bottom:0rem !important;
-}
-.p-2 {
-  /* padding: .0rem!important; */
 }
 .activeTab {
   background-color: #dc3545 !important;
@@ -62,6 +59,7 @@ a:link,a:visited {
 .emphText {
   padding-right: 10px;
   font-weight: bold;
+  color:#dc3545;
 }
 .exerpt {
   font-style: italic;
@@ -106,14 +104,21 @@ ul.cardList {
   color:#dc3545;
   font-weight:bold;
   font-size: 12pt ;
-  padding: 10px;
+  padding: 15px;
+  
 }
 .redText2 {
   color:#dc3545;
   font-size: 12pt ;
 }
+.toggleButton > .panel-heading {
+  border-style: dotted;
+  background-color: #dc3545 !important;
+}
 .cardText {
   font-size: 12pt;
+  margin-left:25px;
+  font-weight: bold;
 }
 /* .modalDiv,.modalDivFlag {
   display: flex;
@@ -213,10 +218,32 @@ ul.cardList {
   font-size: 16pt;
   padding:25px;  
 }
+.buttonRow {
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.servicesButton {
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color:pink;
+  color: #dc3545;
+  border-color: #dc3545;
+  border-style: solid;
+  border-width: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100%
+}
+.servicesButton:hover {
+  background-color: #dc3545;
+  color:pink;
+}
 @media only screen and (max-width:375px) {
 
 .jumbotron {
-  padding: 0px !important;
+  padding-bottom: 0px !important;
 }
 }
 @media only screen and (min-width: 768px) {

@@ -28,24 +28,24 @@ const Blog = () => {
             </Helmet>
             <Nav fill variant="pills" defaultActiveKey="/blog">
                 <Nav.Item>
-                  <Nav.Link href="/" eventKey="link-2">Home</Nav.Link>
+                  <Nav.Link href="/" eventKey="link-2">HOME</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/services" eventKey="link-1">Services</Nav.Link>
+                  <Nav.Link href="/services" eventKey="link-1">SERVICES</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href='/contact' eventKey="link-3">Contact</Nav.Link>
+                  <Nav.Link href='/contact' eventKey="link-3">CONTACT</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href='/blog' className="activeTab">Blog</Nav.Link>
+                  <Nav.Link href='/blog' className="activeTab">BLOG</Nav.Link>
                 </Nav.Item>
             </Nav>
 
             <Jumbotron>
             <div className="contentDiv">
             <img className="logoImg" src={require('./img/billsLogo.png')} alt='logo' />
-              <div className="contentDiv2"><h1>Bill's Signs Blog</h1>
-                <span className="redText">World of Signs Happenings</span>
+              <div className="contentDiv2"><h1>BILL'S BLOG</h1>
+                <span className="redText">NEWS FROM THE WORLD OF SIGNS</span>
               </div>
                 <Card className="blurbCard">
                   {blogPost.reverse().map(mappedBlogPosts => (<div className="blog">

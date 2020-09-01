@@ -11,15 +11,14 @@ function ModalForLic (props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-        State Licensed and Insured
+          State Licensed and Insured
         </Modal.Title>
       </Modal.Header>
       <Modal.Body className="modalDiv">
         <p>The City of Tallahassee now requires sign companies to have a state license. If they don't, they cannot pull a permit!</p>
         <p>We were the First Sign Company in Tallahassee to obtain a <span className="experpt">State License ES12000087</span>.</p> 
-        <p> We qualified on 4/26/2002, which was well before the City of Tallahassee required sign contractors to obtain a state license.
-            Don't be duped by other Sign Companies who aren't properly qualified.</p>
-            <img id="logoImgLic" src={require('./img/billsLogo.png')} alt='Bills Signs and Services Logo' />    
+        <p>We qualified on 4/26/2002, which was well before the City of Tallahassee required sign contractors to obtain a state license.
+            Don't be duped by other Sign Companies who aren't properly qualified.</p>   
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide} variant="danger">Close</Button>
