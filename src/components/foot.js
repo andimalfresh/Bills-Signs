@@ -32,9 +32,9 @@ const Foot = () => {
 
   const [modalShow, setModalShow] = React.useState(false);
     return (
-        <div> 
-                      <div className="contentDiv"><img id="logoImgModal" src={require('./img/billsLogo.png')} alt='logo' /></div>    
+        <div>               
             <ul className='addressList'>
+                    <li>Bills Signs & Service's Inc</li>
                     <li>5765 Mandy Lane Tallahassee, Florida</li>
                     <li><a href="tel:850-576-6847">850-576-6847</a> &#183;<a href="mailto:info@billssigns.com"> info@billssigns.com</a></li>
                     <li className='lisenceModal' onClick={() => setModalShow(true)}>License Info</li>

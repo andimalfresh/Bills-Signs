@@ -2,6 +2,9 @@
   float: none;
   margin: 0 auto;
 }
+img {
+  border-radius: 25px;
+}
 .App {
   text-align: center;
   display: flex;
