@@ -30,8 +30,8 @@ const Contact = () => {
             <Jumbotron>
             <div className="contentDiv">
             <img className="logoImg" src={require('./img/billsLogo.png')} alt='logo' />
-              <div className="contentDiv2"><h1>Contact Us</h1>
-                <span className="redText">We would love to hear from you!</span>
+              <div className="contentDiv2"><h1>CONTACT US</h1>
+                <span className="redText">WE WOULD LOVE TO HEAR FROM YOU</span>
               </div>
                 <Card className="contactCard">
                 <ul><a href="mailto:info@billssigns.com"><span className="redText2">Sales:</span></a>
