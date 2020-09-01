@@ -14,16 +14,16 @@ const Contact = () => {
             </Helmet>
             <Nav fill variant="pills" defaultActiveKey="/contact">
                 <Nav.Item>
-                  <Nav.Link href="/" eventKey="link-2">Home</Nav.Link>
+                  <Nav.Link href="/" eventKey="link-2">HOME</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href="/services" eventKey="link-1">Services</Nav.Link>
+                  <Nav.Link href="/services" eventKey="link-1">SERVICES</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href='/contact' className="activeTab">Contact</Nav.Link>
+                  <Nav.Link href='/contact' className="activeTab">CONTACT</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link href='/blog' eventKey="link-3">Blog</Nav.Link>
+                  <Nav.Link href='/blog' eventKey="link-3">BLOG</Nav.Link>
                 </Nav.Item>
             </Nav>
 
