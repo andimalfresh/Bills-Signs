@@ -11,7 +11,7 @@ const blogPost = [
         month: "AUGUST",
         day: 30,
         year: 2020,
-        body: "Its been a long time coming, but we've finalyy upgraded our website to 2020 standards. We've have teamed up with Br8ed Design , here in Tallahassee, to give our customers a new mobile and desktop experience. Please feel free to reach out and connect with us via email, phone, or our social media platforms. We can't wait to hear from you!",
+        body: "Its been a long time coming, but we've finally upgraded our website to 2020 standards. We've have teamed up with Br8ed Design , here in Tallahassee, to give our customers a new mobile and desktop experience. Please feel free to reach out and connect with us via email, phone, or our social media platforms. We can't wait to hear from you!",
         img: "#"
     }
   ]
