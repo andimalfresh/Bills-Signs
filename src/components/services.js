@@ -577,7 +577,7 @@ const Services = () => {
                         <Row className="buttonRow">
                             <Col><div className="servicesButton" onClick={() => setPlaquesShow(true)}>Plaques</div></Col>
                             <ModalForPlaques show={plaquesShow} onHide={() => setPlaquesShow(false)}/>
-                            <Col><div className="servicesButton" onClick={() => setWayShow(true)}>Way Finiding/Drive Thru Signs</div></Col>
+                            <Col><div className="servicesButton" onClick={() => setWayShow(true)}>Way Finding/Drive Thru Signs</div></Col>
                             <ModalForWay show={wayShow} onHide={() => setWayShow(false)}/>
                         </Row>
                         <Row className="buttonRow">
