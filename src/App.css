@@ -1,4 +1,4 @@
-.col-centered{
+.col-centered {
   float: none;
   margin: 0 auto;
 }
@@ -12,10 +12,10 @@ img {
   flex-direction: column;
 }
 .nav-pills a:visited {
-  background-color:#dc3545 !important;
+  background-color: #dc3545 !important;
 }
 .jumbotron {
-  margin-bottom:0rem !important;
+  margin-bottom: 0rem !important;
 }
 .activeTab {
   background-color: #dc3545 !important;
@@ -28,9 +28,9 @@ ul {
   font-weight: bold;
 }
 .pageContent {
-  text-align:left;
+  text-align: left;
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   width: 100%;
 }
 .logoImg {
@@ -41,49 +41,52 @@ ul {
 .carouselCaption {
   background-color: grey;
   border-radius: 25px;
-  opacity: .8;
+  opacity: 0.8;
 }
 .carousel {
   height: auto;
   width: 100%;
-  padding-bottom:25px
+  padding-bottom: 25px;
 }
-.addressList,.servicesList,.since1969 {
-  padding-top:25px;
-  padding-bottom:25px;
+.addressList,
+.servicesList,
+.since1969 {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
-a:link,a:visited { 
-  text-decoration: none; 
+a:link,
+a:visited {
+  text-decoration: none;
   color: black;
 }
 .emphText {
   padding-right: 10px;
   font-weight: bold;
-  color:#dc3545;
+  color: #dc3545;
 }
 .exerpt {
   font-style: italic;
 }
 .contentDiv {
-  padding-top:25px;
+  padding-top: 25px;
 }
 .contentDiv2 {
-  padding-bottom:25px;
+  padding-bottom: 25px;
 }
 .contentDiv2Left {
-  text-align:left;
-  padding-bottom:25px;
+  text-align: left;
+  padding: 25px;
 }
 .smallTitle {
   padding-left: 15px;
 }
 .lisenceModal {
   text-decoration: underline;
-  color:#dc3545;
-  padding-bottom:50px;
+  color: #dc3545;
+  padding-bottom: 50px;
 }
 ul.cardList {
-  padding:25px;
+  padding: 25px;
   text-align: left;
 }
 .cardList {
@@ -92,24 +95,23 @@ ul.cardList {
   padding-top: 25px;
 }
 .cardList2 {
-  padding-top:25px;
+  padding-top: 25px;
 }
 .cardList3 {
-  padding-bottom:25px;
+  padding-bottom: 25px;
 }
 .bbText {
   font-weight: bold;
 }
 .redText {
-  color:#dc3545;
-  font-weight:bold;
-  font-size: 12pt ;
+  color: #dc3545;
+  font-weight: bold;
+  font-size: 12pt;
   padding: 15px;
-  
 }
 .redText2 {
-  color:#dc3545;
-  font-size: 12pt ;
+  color: #dc3545;
+  font-size: 12pt;
 }
 .toggleButton > .panel-heading {
   border-style: dotted;
@@ -117,7 +119,7 @@ ul.cardList {
 }
 .cardText {
   font-size: 12pt;
-  margin-left:25px;
+  margin-left: 25px;
   font-weight: bold;
 }
 /* .modalDiv,.modalDivFlag {
@@ -126,7 +128,7 @@ ul.cardList {
   align-items: center;
   flex-direction: column;
 } */
- /* .modalDiv img {
+/* .modalDiv img {
   height: 330px;
   width: 360px;
 } 
@@ -148,21 +150,23 @@ ul.cardList {
   width: 100%
 } */
 .sliderContainer {
-  height: 300px ;
-  width: 300px ;
+  height: 300px;
+  width: 300px;
 }
-.carousel-item, .carousel-item.active {
-  align-items:center;
+.carousel-item,
+.carousel-item.active {
+  align-items: center;
 }
 .blurb {
-  display:flex;
+  display: flex;
   justify-content: left;
   text-align: left;
   font-size: 16pt;
-  padding-bottom:25px;
+  padding-bottom: 25px;
 }
-.blurbCard, .budgetCard {
-  display:flex;
+.blurbCard,
+.budgetCard {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: left;
@@ -170,7 +174,7 @@ ul.cardList {
   padding: 25px;
 }
 .buttonPadding {
-  padding-top:25px;
+  padding-top: 25px;
 }
 #logoImgModal {
   height: 80px;
@@ -185,14 +189,14 @@ ul.cardList {
   height: 300px !important;
 }
 .largeNav {
-  display:none;
+  display: none;
 }
 .centerInDiv {
   display: flex;
   justify-content: center;
 }
 .blog {
-  padding-bottom:50px;
+  padding-bottom: 50px;
 }
 .blogTitle {
   font-size: 14pt;
@@ -201,32 +205,32 @@ ul.cardList {
 .blogDate {
   font-size: 10pt;
   font-style: italic;
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 .blogBody {
   padding-top: 20px;
   font-size: 12pt;
 }
 .blogImage {
-  height:150px;
-  width:150px;
+  height: 150px;
+  width: 150px;
 }
 .contactCard {
-  display:flex;
+  display: flex;
   justify-content: left;
   text-align: left;
   font-size: 16pt;
-  padding:25px;  
+  padding: 25px;
 }
 .buttonRow {
-  padding-top:10px;
-  padding-bottom:10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .servicesButton {
   border-radius: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color:pink;
+  background-color: pink;
   color: #dc3545;
   border-color: #dc3545;
   border-style: solid;
@@ -234,39 +238,37 @@ ul.cardList {
   display: flex;
   align-items: center;
   justify-content: center;
-  height:100%
+  height: 100%;
 }
 .servicesButton:hover {
   background-color: #dc3545;
-  color:pink;
+  color: pink;
 }
-@media only screen and (max-width:375px) {
-
-.jumbotron {
-  padding-bottom: 0px !important;
-}
+@media only screen and (max-width: 375px) {
+  .jumbotron {
+    padding-bottom: 0px !important;
+  }
 }
 @media only screen and (min-width: 768px) {
-
   .pageContent {
     text-align: center;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
   }
   .sliderContainer {
     height: 600px;
-    width: 600px
+    width: 600px;
   }
-.contactCard {
-    display:flex;
+  .contactCard {
+    display: flex;
     justify-content: center;
     text-align: center;
     font-size: 16pt;
-    padding-bottom:25px;  
-}
-.logoImg {
+    padding-bottom: 25px;
+  }
+  .logoImg {
     width: 500px;
     height: 304px;
   }
@@ -279,10 +281,10 @@ ul.cardList {
     height: 200px !important;
   }
   .mobileNav {
-    display:none;
+    display: none;
   }
   .largeNav {
-    display:inline;
+    display: inline;
   }
   /* .modalDiv img{
     height: 674px !important;
@@ -295,11 +297,13 @@ ul.cardList {
   /* .modalDivFlag.card-body , .modalDiv.card-body {
   padding:0px;
 } */
-.carousel-control-next-icon, .carousel-control-prev-icon {
-  background-color: #dc3545 !important;
-}
-  .blurbCard, .budgetCard {
-    width:100%;
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    background-color: #dc3545 !important;
+  }
+  .blurbCard,
+  .budgetCard {
+    width: 100%;
     padding-left: 15%;
     padding-right: 15%;
     flex-direction: column;
@@ -309,7 +313,7 @@ ul.cardList {
     margin-right: 20px;
   }
   .blogBody {
-  padding-top:0px;
-  font-size: 12pt;
+    padding-top: 0px;
+    font-size: 12pt;
   }
 }
