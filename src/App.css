@@ -152,6 +152,7 @@ ul.cardList {
 .sliderContainer {
   height: 300px;
   width: 300px;
+  padding-bottom: 25px;
 }
 .carousel-item,
 .carousel-item.active {
