@@ -26,6 +26,24 @@ function ModalForLighted(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body className='modalDiv'>
+        <div className='d-flex justify-content-center'>
+          <Carousel className='sliderContainer'>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/lighted/img1.jpg')}
+                alt='This is a Lighted Sign Example #1'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/lighted/img2.jpg')}
+                alt='This is a Lighted Sign Example #2'
+              />
+            </Carousel.Item>
+          </Carousel>
+        </div>
         <div className='signDescription'>
           <p>
             Lighted and Illuminated Signs have quickly become the ideal solution
@@ -52,24 +70,6 @@ function ModalForLighted(props) {
             equipment to meet the needs of your business.
           </p>
         </div>
-        <div className='d-flex justify-content-center'>
-          <Carousel className='sliderContainer'>
-            <Carousel.Item>
-              <img
-                className='sliderContainer'
-                src={require('./img/lighted/img1.jpg')}
-                alt='This is a Lighted Sign Example #1'
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className='sliderContainer'
-                src={require('./img/lighted/img2.jpg')}
-                alt='This is a Lighted Sign Example #2'
-              />
-            </Carousel.Item>
-          </Carousel>
-        </div>
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide} variant='danger'>
@@ -93,31 +93,6 @@ function ModalForChannel(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body className='modalDiv'>
-        <div className='signDescription'>
-          <p>
-            Channel Letter Signs are the most popular and commonly selected sign
-            style for outdoor signage by retail storefronts, restaurants, bars,
-            large and small offices and public buildings because Channel
-            Lettering provides both customization of size, color and shape as
-            well as a very clean and sophisticated look that literally stands
-            out for your businesses.<p></p> To draw even more customers
-            attention to your business, ask us about optional Neon or LED
-            Backlit Channel Lettering or Illuminated Channel Lettering to
-            increase visibility all day and night or Reverse Channel Lettering
-            and Vintage Channel Lettering to stand out from other Channel Letter
-            Signs in your area. No matter which style of Channel Letter Sign
-            your businesses decides on, you will not be disappointed with the
-            quality appearance this sign style provides. Channel Letter Signs
-            also require little to no maintenance and have a very high lifespan.
-          </p>
-          <p>
-            As the first state licensed and insured sign manufacturer in
-            Tallahassee, FL, Bill’s Signs and Services is the industry leader
-            with over 65 years experience designing, fabricating and installing
-            all styles of Channel Letter Signs, as well as restoring and
-            repairing existing equipment to meet the needs of your business.
-          </p>
-        </div>
         <div className='d-flex justify-content-center'>
           <Carousel className='sliderContainer'>
             <Carousel.Item>
@@ -150,6 +125,31 @@ function ModalForChannel(props) {
             </Carousel.Item>
           </Carousel>
         </div>
+        <div className='signDescription'>
+          <p>
+            Channel Letter Signs are the most popular and commonly selected sign
+            style for outdoor signage by retail storefronts, restaurants, bars,
+            large and small offices and public buildings because Channel
+            Lettering provides both customization of size, color and shape as
+            well as a very clean and sophisticated look that literally stands
+            out for your businesses.<p></p> To draw even more customers
+            attention to your business, ask us about optional Neon or LED
+            Backlit Channel Lettering or Illuminated Channel Lettering to
+            increase visibility all day and night or Reverse Channel Lettering
+            and Vintage Channel Lettering to stand out from other Channel Letter
+            Signs in your area. No matter which style of Channel Letter Sign
+            your businesses decides on, you will not be disappointed with the
+            quality appearance this sign style provides. Channel Letter Signs
+            also require little to no maintenance and have a very high lifespan.
+          </p>
+          <p>
+            As the first state licensed and insured sign manufacturer in
+            Tallahassee, FL, Bill’s Signs and Services is the industry leader
+            with over 65 years experience designing, fabricating and installing
+            all styles of Channel Letter Signs, as well as restoring and
+            repairing existing equipment to meet the needs of your business.
+          </p>
+        </div>
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide} variant='danger'>
@@ -173,6 +173,31 @@ function ModalForElectronic(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body className='modalDiv'>
+        <div className='d-flex justify-content-center'>
+          <Carousel className='sliderContainer'>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/electronic/img1.jpg')}
+                alt='This is a Electronic LetterExample #1'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/electronic/img2.jpg')}
+                alt='This is a Electronic Letter Example #2'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/electronic/img3.jpg')}
+                alt='This is a Electronic Letter Example #3'
+              />
+            </Carousel.Item>
+          </Carousel>
+        </div>
         <div>
           <p>
             Electronic Message Display Signs or Digital Signs are often only
@@ -203,31 +228,6 @@ function ModalForElectronic(props) {
             any current events, promotions and new services.
           </p>
         </div>
-        <div className='d-flex justify-content-center'>
-          <Carousel className='sliderContainer'>
-            <Carousel.Item>
-              <img
-                className='sliderContainer'
-                src={require('./img/electronic/img1.jpg')}
-                alt='This is a Electronic LetterExample #1'
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className='sliderContainer'
-                src={require('./img/electronic/img2.jpg')}
-                alt='This is a Electronic Letter Example #2'
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className='sliderContainer'
-                src={require('./img/electronic/img3.jpg')}
-                alt='This is a Electronic Letter Example #3'
-              />
-            </Carousel.Item>
-          </Carousel>
-        </div>
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide} variant='danger'>
@@ -249,6 +249,31 @@ function ModalForPole(props) {
         <Modal.Title id='contained-modal-title-vcenter'>Pole Signs</Modal.Title>
       </Modal.Header>
       <Modal.Body className='modalDiv'>
+        <div className='d-flex justify-content-center'>
+          <Carousel className='sliderContainer'>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/pole/img1.jpg')}
+                alt='This is a pole sign Example #1'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/pole/img2.jpg')}
+                alt='This is a pole sign Example #2'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/pole/img3.jpg')}
+                alt='This is a pole sign Example #3'
+              />
+            </Carousel.Item>
+          </Carousel>
+        </div>
         <div>
           <p>
             Pole Signs are a great solution for businesses located in high
@@ -280,31 +305,6 @@ function ModalForPole(props) {
             Signage, as well as restoring and repairing existing signage to meet
             the needs of your business.
           </p>
-        </div>
-        <div className='d-flex justify-content-center'>
-          <Carousel className='sliderContainer'>
-            <Carousel.Item>
-              <img
-                className='sliderContainer'
-                src={require('./img/pole/img1.jpg')}
-                alt='This is a pole sign Example #1'
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className='sliderContainer'
-                src={require('./img/pole/img2.jpg')}
-                alt='This is a pole sign Example #2'
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className='sliderContainer'
-                src={require('./img/pole/img3.jpg')}
-                alt='This is a pole sign Example #3'
-              />
-            </Carousel.Item>
-          </Carousel>
         </div>
       </Modal.Body>
       <Modal.Footer>
@@ -352,6 +352,15 @@ function ModalForWall(props) {
             </Carousel.Item>
           </Carousel>
         </div>
+        <div>
+          <p>
+            As the first state licensed and insured sign manufacturer in
+            Tallahassee, FL, Bill’s Signs and Services has over 65 years
+            experience designing, fabricating and installing new Monument Signs,
+            as well as restoring and repairing existing signage to meet the
+            needs of your business.
+          </p>
+        </div>
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide} variant='danger'>
@@ -375,6 +384,24 @@ function ModalForMonument(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body className='modalDiv'>
+        <div className='d-flex justify-content-center'>
+          <Carousel className='sliderContainer'>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/monument/img1.jpg')}
+                alt='This is a monument sign Example #1'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/monument/img2.jpg')}
+                alt='This is a monument sign Example #2'
+              />
+            </Carousel.Item>
+          </Carousel>
+        </div>
         <div>
           <p>
             Monument Signs are typically set between two brick columns, poles or
@@ -393,24 +420,6 @@ function ModalForMonument(props) {
             as well as restoring and repairing existing signage to meet the
             needs of your business.
           </p>
-        </div>
-        <div className='d-flex justify-content-center'>
-          <Carousel className='sliderContainer'>
-            <Carousel.Item>
-              <img
-                className='sliderContainer'
-                src={require('./img/monument/img1.jpg')}
-                alt='This is a monument sign Example #1'
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className='sliderContainer'
-                src={require('./img/monument/img2.jpg')}
-                alt='This is a monument sign Example #2'
-              />
-            </Carousel.Item>
-          </Carousel>
         </div>
       </Modal.Body>
       <Modal.Footer>
@@ -435,24 +444,6 @@ function ModalForPylon(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body className='modalDiv'>
-        <div>
-          <p>
-            Pylon Signs are an outdoor sign style which are very economical,
-            long lasting and can be constructed to display multiple business
-            names or a single business name with both single or double sided. A
-            Pylon Sign is an ideal solution for a shopping center, hotel,
-            restaurant, gas station, car dealership, industrial plaza or large
-            retail location and can be customized to meet the hight and color
-            you desire.
-          </p>
-          <p>
-            As the first state licensed and insured sign manufacturer in
-            Tallahassee, FL, Bill’s Signs and Services has over 65 years
-            experience designing, fabricating and installing new Pylon Signs, as
-            well as restoring and repairing existing signage to meet the needs
-            of your business.
-          </p>
-        </div>
         <div className='d-flex justify-content-center'>
           <Carousel className='sliderContainer'>
             <Carousel.Item>
@@ -470,6 +461,24 @@ function ModalForPylon(props) {
               />
             </Carousel.Item>
           </Carousel>
+        </div>
+        <div>
+          <p>
+            Pylon Signs are an outdoor sign style which are very economical,
+            long lasting and can be constructed to display multiple business
+            names or a single business name with both single or double sided. A
+            Pylon Sign is an ideal solution for a shopping center, hotel,
+            restaurant, gas station, car dealership, industrial plaza or large
+            retail location and can be customized to meet the hight and color
+            you desire.
+          </p>
+          <p>
+            As the first state licensed and insured sign manufacturer in
+            Tallahassee, FL, Bill’s Signs and Services has over 65 years
+            experience designing, fabricating and installing new Pylon Signs, as
+            well as restoring and repairing existing signage to meet the needs
+            of your business.
+          </p>
         </div>
       </Modal.Body>
       <Modal.Footer>
@@ -492,13 +501,6 @@ function ModalForPlaques(props) {
         <Modal.Title id='contained-modal-title-vcenter'>Plaques</Modal.Title>
       </Modal.Header>
       <Modal.Body className='modalDiv'>
-        <div>
-          As the first state licensed and insured sign manufacturer in
-          Tallahassee, FL, Bill’s Signs and Services has over 65 years
-          experience designing, fabricating and installing Plaques, as well as
-          providing engraving services to meet any of your business or
-          organizations needs.
-        </div>
         <div className='d-flex justify-content-center'>
           <Carousel className='sliderContainer'>
             <Carousel.Item>
@@ -516,6 +518,15 @@ function ModalForPlaques(props) {
               />
             </Carousel.Item>
           </Carousel>
+        </div>
+        <div>
+          <p>
+            As the first state licensed and insured sign manufacturer in
+            Tallahassee, FL, Bill’s Signs and Services has over 65 years
+            experience designing, fabricating and installing Plaques, as well as
+            providing engraving services to meet any of your business or
+            organizations needs.
+          </p>
         </div>
       </Modal.Body>
       <Modal.Footer>
@@ -540,6 +551,24 @@ function ModalForWay(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body className='modalDiv'>
+        <div className='d-flex justify-content-center'>
+          <Carousel className='sliderContainer'>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/way/img1.jpg')}
+                alt='This is a Drive Thru Example #1'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/way/img2.jpg')}
+                alt='This is a Drive Thru Example #2'
+              />
+            </Carousel.Item>
+          </Carousel>
+        </div>
         <div>
           <p>
             Way-finding and Directional Signs may be the most important type of
@@ -561,24 +590,6 @@ function ModalForWay(props) {
             Directional Signs, as well as restoring and repairing existing
             signage to meet the needs of your business.
           </p>
-        </div>
-        <div className='d-flex justify-content-center'>
-          <Carousel className='sliderContainer'>
-            <Carousel.Item>
-              <img
-                className='sliderContainer'
-                src={require('./img/way/img1.jpg')}
-                alt='This is a Drive Thru Example #1'
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className='sliderContainer'
-                src={require('./img/way/img2.jpg')}
-                alt='This is a Drive Thru Example #2'
-              />
-            </Carousel.Item>
-          </Carousel>
         </div>
       </Modal.Body>
       <Modal.Footer>
@@ -621,6 +632,21 @@ function ModalForShopping(props) {
             </Carousel.Item>
           </Carousel>
         </div>
+        <div>
+          <p>
+            Bill's Signs and Services specializes in signs for multiple tenants
+            and shopping centers. Weather your looking for a sign with three
+            tenants or thirty Bill's has the knowledge and expertise to build
+            you the best sign for your budget.
+          </p>
+          <p>
+            As the first state licensed and insured sign manufacturer in
+            Tallahassee, FL, Bill’s Signs and Services has over 65 years
+            experience designing, fabricating and installing Way-Finding and
+            Directional Signs, as well as restoring and repairing existing
+            signage to meet the needs of your business.
+          </p>
+        </div>
       </Modal.Body>
       <Modal.Footer>
         <Button onClick={props.onHide} variant='danger'>
@@ -644,15 +670,6 @@ function ModalForVinyl(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body className='modalDiv'>
-        <div>
-          Vinyl Signs and Wraps are an economic way to increase your brands
-          visibility on site and on the road. Whether you are looking for a
-          Vinyl Sign to display store hours, your businesses logo, or you are
-          looking for a full vehicle wrap to showcase your business on company
-          cars, Bill’s Signs and Services has over 65 years experience
-          designing, fabricating and installing Vinyl Signs and Wraps on any
-          surface.
-        </div>
         <div className='d-flex justify-content-center'>
           <Carousel className='sliderContainer'>
             <Carousel.Item>
@@ -670,6 +687,24 @@ function ModalForVinyl(props) {
               />
             </Carousel.Item>
           </Carousel>
+        </div>
+        <div>
+          <p>
+            Vinyl Signs and Wraps are an economic way to increase your brands
+            visibility on site and on the road. Whether you are looking for a
+            Vinyl Sign to display store hours, your businesses logo, or you are
+            looking for a full vehicle wrap to showcase your business on company
+            cars, Bill’s Signs and Services has over 65 years experience
+            designing, fabricating and installing Vinyl Signs and Wraps on any
+            surface.
+          </p>
+          <p>
+            As the first state licensed and insured sign manufacturer in
+            Tallahassee, FL, Bill’s Signs and Services has over 65 years
+            experience designing, fabricating and installing Way-Finding and
+            Directional Signs, as well as restoring and repairing existing
+            signage to meet the needs of your business.
+          </p>
         </div>
       </Modal.Body>
       <Modal.Footer>
@@ -710,6 +745,19 @@ function ModalForFlags(props) {
               />
             </Carousel.Item>
           </Carousel>
+        </div>
+        <div>
+          <p>
+            Contact Bill's today to get more information on how we can contruct
+            a flag pole for you built to last for years to come.
+          </p>
+          <p>
+            As the first state licensed and insured sign manufacturer in
+            Tallahassee, FL, Bill’s Signs and Services has over 65 years
+            experience designing, fabricating and installing Way-Finding and
+            Directional Signs, as well as restoring and repairing existing
+            signage to meet the needs of your business.
+          </p>
         </div>
       </Modal.Body>
       <Modal.Footer>
