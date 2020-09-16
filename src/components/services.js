@@ -635,7 +635,7 @@ function ModalForShopping(props) {
         <div>
           <p>
             Bill's Signs and Services specializes in signs for multiple tenants
-            and shopping centers. Weather your looking for a sign with three
+            and shopping centers. Whether your looking for a sign with three
             tenants or thirty Bill's has the knowledge and expertise to build
             you the best sign for your budget.
           </p>
