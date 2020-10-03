@@ -48,7 +48,7 @@ ul {
 }
 .carousel {
   height: auto;
-  width: 100%;
+  width: 75%;
   padding-bottom: 25px;
 }
 .addressList,
@@ -153,8 +153,13 @@ ul.cardList {
   width: 100%
 } */
 .sliderContainer {
+  height: 280px;
+  width: 300px;
+  padding-bottom: 25px;
+}
+.sliderContainer2 {
+  width: 280px;
   height: 300px;
-  width: 450px;
   padding-bottom: 25px;
 }
 .carousel-item,
@@ -261,10 +266,6 @@ ul.cardList {
     justify-content: center;
     width: 100%;
   }
-  /* .sliderContainer {
-    height: 600px;
-    width: 600px;
-  } */
   .contactCard {
     display: flex;
     justify-content: center;
@@ -276,9 +277,13 @@ ul.cardList {
     width: 500px;
     height: 304px;
   }
-  .carousel {
-    height: auto;
-    width: 75%;
+  .sliderContainer {
+    height: 400px;
+    width: 475px;
+  }
+  .sliderContainer2 {
+    width: 400px;
+    height: 475px;
   }
   .mapComponent {
     width: 100% !important;
