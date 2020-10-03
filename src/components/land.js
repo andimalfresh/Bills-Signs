@@ -7,7 +7,7 @@ import Nav from 'react-bootstrap/Nav';
 const Land = () => {
   return (
     <div>
-      <Nav fill variant='pills' defaultActiveKey='/'>
+      <Nav className="navGap" fill variant='pills' defaultActiveKey='/'>
         <Nav.Item>
           <Nav.Link href='/' className='activeTab'>
             HOME
@@ -40,38 +40,38 @@ const Land = () => {
           <span className='redText'>SINCE 1969</span>
           <div className='d-flex justify-content-center contentDiv'>
             <Carousel>
-              <Carousel.Item>
+            <Carousel.Item>
                 <img
                   className='d-block w-100'
-                  src={require('./img/gallery/img1.jpg')}
+                  src={require('./img/channel/ChannelLetterSign_1.jpg')}
                   alt='First slide'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
-                  src={require('./img/gallery/img2.jpg')}
+                  src={require('./img/lighted/LightedSign_2.jpg')}
                   alt='Second slide'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
-                  src={require('./img/gallery/img3.jpg')}
+                  src={require('./img/wall/WallSign_3.jpg')}
                   alt='Second slide'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
-                  src={require('./img/gallery/img4.jpg')}
+                  src={require('./img/wall/WallSign_1.jpg')}
                   alt='Second slide'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
-                  src={require('./img/gallery/img5.jpg')}
+                  src={require('./img/channel/ChannelLetterSign_1.jpg')}
                   alt='Second slide'
                 />
               </Carousel.Item>

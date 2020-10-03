@@ -31,15 +31,50 @@ function ModalForLighted(props) {
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/lighted/img1.jpg')}
+                src={require('./img/lighted/LightedSign_1.jpg')}
                 alt='This is a Lighted Sign Example #1'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/lighted/img2.jpg')}
+                src={require('./img/lighted/LightedSign_2.jpg')}
                 alt='This is a Lighted Sign Example #2'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/lighted/LightedSign_3.jpg')}
+                alt='This is a Lighted Sign Example #3'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/lighted/LightedSign_4.jpg')}
+                alt='This is a Lighted Sign Example #4'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/lighted/LightedSign_5.jpg')}
+                alt='This is a Lighted Sign Example #5'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/lighted/LightedSign_6.jpg')}
+                alt='This is a Lighted Sign Example #6'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/lighted/LightedSign_7.jpg')}
+                alt='This is a Lighted Sign Example #7'
               />
             </Carousel.Item>
           </Carousel>
@@ -98,29 +133,43 @@ function ModalForChannel(props) {
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/channel/img1.jpg')}
+                src={require('./img/channel/ChannelLetterSign_1.jpg')}
                 alt='This is a Channel LetterExample #1'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/channel/img2.jpg')}
-                alt='This is a Channel Letter Example #2'
+                src={require('./img/channel/ChannelLetterSign_2.jpg')}
+                alt='This is a Channel LetterExample #2'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/channel/img3.jpg')}
-                alt='This is a Channel Letter Example #3'
+                src={require('./img/channel/ChannelLetterSign_3.jpg')}
+                alt='This is a Channel LetterExample #4'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/channel/img4.jpg')}
-                alt='This is a Channel Letter Example #4'
+                src={require('./img/channel/ChannelLetterSign_4.jpg')}
+                alt='This is a Channel LetterExample #4'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/channel/ChannelLetterSign_5.jpg')}
+                alt='This is a Channel LetterExample #5'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/channel/ChannelLetterSign_6.jpg')}
+                alt='This is a Channel LetterExample #6'
               />
             </Carousel.Item>
           </Carousel>
@@ -178,22 +227,50 @@ function ModalForElectronic(props) {
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/electronic/img1.jpg')}
+                src={require('./img/electronic/ElectronicMessageDisplaySign_1.jpg')}
                 alt='This is a Electronic LetterExample #1'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/electronic/img2.jpg')}
-                alt='This is a Electronic Letter Example #2'
+                src={require('./img/electronic/ElectronicMessageDisplaySign_2.jpg')}
+                alt='This is a Electronic LetterExample #2'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/electronic/img3.jpg')}
-                alt='This is a Electronic Letter Example #3'
+                src={require('./img/electronic/ElectronicMessageDisplaySign_3.jpg')}
+                alt='This is a Electronic LetterExample #3'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/electronic/ElectronicMessageDisplaySign_4.jpg')}
+                alt='This is a Electronic LetterExample #4'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/electronic/ElectronicMessageDisplaySign_5.jpg')}
+                alt='This is a Electronic LetterExample #5'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/electronic/ElectronicMessageDisplaySign_6.jpg')}
+                alt='This is a Electronic LetterExample #6'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/electronic/ElectronicMessageDisplaySign_7.jpg')}
+                alt='This is a Electronic LetterExample #7'
               />
             </Carousel.Item>
           </Carousel>
@@ -254,22 +331,43 @@ function ModalForPole(props) {
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/pole/img1.jpg')}
+                src={require('./img/pole/PoleSign_1.jpg')}
                 alt='This is a pole sign Example #1'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/pole/img2.jpg')}
+                src={require('./img/pole/PoleSign_2.jpg')}
                 alt='This is a pole sign Example #2'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/pole/img3.jpg')}
+                src={require('./img/pole/PoleSign_3.jpg')}
                 alt='This is a pole sign Example #3'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/pole/PoleSign_4.jpg')}
+                alt='This is a pole sign Example #4'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/pole/PoleSign_5.jpg')}
+                alt='This is a pole sign Example #5'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/pole/PoleSign_6.jpg')}
+                alt='This is a pole sign Example #6'
               />
             </Carousel.Item>
           </Carousel>
@@ -332,22 +430,50 @@ function ModalForWall(props) {
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/wall/img1.jpg')}
+                src={require('./img/wall/WallSign_1.jpg')}
                 alt='This is a Wall sign Example #1'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/wall/img2.jpg')}
+                src={require('./img/wall/WallSign_2.jpg')}
                 alt='This is a Wall sign Example #2'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/wall/img3.jpg')}
+                src={require('./img/wall/WallSign_3.jpg')}
                 alt='This is a Wall sign Example #3'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/wall/WallSign_4.jpg')}
+                alt='This is a Wall sign Example #4'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/wall/WallSign_6.jpg')}
+                alt='This is a Wall sign Example #6'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/wall/WallSign_7.jpg')}
+                alt='This is a Wall sign Example #7'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/wall/WallSign_8.jpg')}
+                alt='This is a Wall sign Example #8'
               />
             </Carousel.Item>
           </Carousel>
@@ -389,15 +515,50 @@ function ModalForMonument(props) {
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/monument/img1.jpg')}
+                src={require('./img/monument/MonumentSign_1.jpg')}
                 alt='This is a monument sign Example #1'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/monument/img2.jpg')}
+                src={require('./img/monument/MonumentSign_2.jpg')}
                 alt='This is a monument sign Example #2'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/monument/MonumentSign_3.jpg')}
+                alt='This is a monument sign Example #3'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/monument/MonumentSign_4.jpg')}
+                alt='This is a monument sign Example #4'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/monument/MonumentSign_5.jpg')}
+                alt='This is a monument sign Example #5'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/monument/MonumentSign_6.jpg')}
+                alt='This is a monument sign Example #6'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/monument/MonumentSign_7.jpg')}
+                alt='This is a monument sign Example #7'
               />
             </Carousel.Item>
           </Carousel>
@@ -449,15 +610,50 @@ function ModalForPylon(props) {
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/pylon/img1.jpg')}
+                src={require('./img/pylon/PylonSign_1.jpg')}
                 alt='This is a Pylon Signs Example #1'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/pylon/img2.jpg')}
+                src={require('./img/pylon/PylonSign_2.jpg')}
                 alt='This is a Pylon Signs Example #2'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/pylon/PylonSign_3.jpg')}
+                alt='This is a Pylon Signs Example #3'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/pylon/PylonSign_4.jpg')}
+                alt='This is a Pylon Signs Example #4'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/pylon/PylonSign_5.jpg')}
+                alt='This is a Pylon Signs Example #5'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/pylon/PylonSign_6.jpg')}
+                alt='This is a Pylon Signs Example #6'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/pylon/PylonSign_7.jpg')}
+                alt='This is a Pylon Signs Example #7'
               />
             </Carousel.Item>
           </Carousel>
@@ -506,15 +702,50 @@ function ModalForPlaques(props) {
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/plaques/img1.jpg')}
+                src={require('./img/plaques/Plaque_1.jpg')}
                 alt='This is a Plaque Example #1'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/plaques/img2.jpg')}
+                src={require('./img/plaques/Plaque_2.jpg')}
                 alt='This is a Plaque Example #2'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/plaques/Plaque_3.jpg')}
+                alt='This is a Plaque Example #3'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/plaques/Plaque_4.jpg')}
+                alt='This is a Plaque Example #4'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/plaques/Plaque_5.jpg')}
+                alt='This is a Plaque Example #5'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/plaques/Plaque_6.jpg')}
+                alt='This is a Plaque Example #6'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/plaques/Plaque_7.jpg')}
+                alt='This is a Plaque Example #7'
               />
             </Carousel.Item>
           </Carousel>
@@ -556,15 +787,78 @@ function ModalForWay(props) {
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/way/img1.jpg')}
+                src={require('./img/way/DirectionalSign_1.jpg')}
                 alt='This is a Drive Thru Example #1'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/way/img2.jpg')}
+                src={require('./img/way/DirectionalSign_1.jpg')}
+                alt='This is a Drive Thru Example #1'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/way/DirectionalSign_2.jpg')}
                 alt='This is a Drive Thru Example #2'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/way/DirectionalSign_3.jpg')}
+                alt='This is a Drive Thru Example #3'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/way/DirectionalSign_4.jpg')}
+                alt='This is a Drive Thru Example #4'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/way/DirectionalSign_5.jpg')}
+                alt='This is a Drive Thru Example #5'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/way/DirectionalSign_6.jpg')}
+                alt='This is a Drive Thru Example #6'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/way/DirectionalSign_7.jpg')}
+                alt='This is a Drive Thru Example #7'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/way/DirectionalSign_8.jpg')}
+                alt='This is a Drive Thru Example #8'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/way/DirectionalSign_9.jpg')}
+                alt='This is a Drive Thru Example #9'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/way/DirectionalSign_10.jpg')}
+                alt='This is a Drive Thru Example #10'
               />
             </Carousel.Item>
           </Carousel>
@@ -619,15 +913,36 @@ function ModalForShopping(props) {
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/tenantshopping/img1.jpg')}
+                src={require('./img/tenantshopping/ShoppingCenterSign_2.jpg')}
                 alt='This is a Shopping Center Example #1'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/tenantshopping/img2.jpg')}
-                alt='This is a Shopping Center Example #2'
+                src={require('./img/tenantshopping/ShoppingCenterSign_3.jpg')}
+                alt='This is a Shopping Center Example #3'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/tenantshopping/ShoppingCenterSign_4.jpg')}
+                alt='This is a Shopping Center Example #4'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/tenantshopping/ShoppingCenterSign_5.jpg')}
+                alt='This is a Shopping Center Example #5'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/tenantshopping/ShoppingCenterSign_6.jpg')}
+                alt='This is a Shopping Center Example #6'
               />
             </Carousel.Item>
           </Carousel>
@@ -675,15 +990,50 @@ function ModalForVinyl(props) {
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/vinyl/img1.jpg')}
+                src={require('./img/vinyl/VinylSign_1.jpg')}
                 alt='This is a Vinyl Signs Example #1'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/vinyl/img2.jpg')}
+                src={require('./img/vinyl/VinylSign_2.jpg')}
                 alt='This is a Vinyl Signs Example #2'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/vinyl/VinylSign_3.jpg')}
+                alt='This is a Vinyl Signs Example #3'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/vinyl/VinylSign_4.jpg')}
+                alt='This is a Vinyl Signs Example #4'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/vinyl/VinylSign_5.jpg')}
+                alt='This is a Vinyl Signs Example #5'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/vinyl/VinylSign_7.jpg')}
+                alt='This is a Vinyl Signs Example #7'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/vinyl/VinylSign_8.jpg')}
+                alt='This is a Vinyl Signs Example #8'
               />
             </Carousel.Item>
           </Carousel>
@@ -733,15 +1083,29 @@ function ModalForFlags(props) {
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/flag/img1.jpg')}
+                src={require('./img/flag/FlagPole_1.jpg')}
                 alt='This is a flag Example #1'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
-                src={require('./img/flag/img2.jpg')}
+                src={require('./img/flag/FlagPole_2.jpg')}
                 alt='This is a flag Example #2'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/flag/FlagPole_3.jpg')}
+                alt='This is a flag Example #3'
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className='sliderContainer'
+                src={require('./img/flag/FlagPole_4.jpg')}
+                alt='This is a flag Example #4'
               />
             </Carousel.Item>
           </Carousel>
@@ -749,7 +1113,7 @@ function ModalForFlags(props) {
         <div>
           <p>
             Contact Bill's today to get more information on how we can contruct
-            a flag pole for you built to last for years to come.
+            a flag pole for you that is built to last for years to come.
           </p>
           <p>
             As the first state licensed and insured sign manufacturer in
@@ -794,7 +1158,7 @@ const Services = () => {
           content="Here is a list of services provided by Bill's Signs. Contact us today about building a new project for your business."
         ></meta>
       </Helmet>
-      <Nav fill variant='pills' defaultActiveKey='/services'>
+      <Nav className="navGap" fill variant='pills' defaultActiveKey='/services'>
         <Nav.Item>
           <Nav.Link href='/' eventKey='link-1'>
             HOME
@@ -834,38 +1198,38 @@ const Services = () => {
           </ul>
           <div className='d-flex justify-content-center'>
             <Carousel>
-              <Carousel.Item>
+            <Carousel.Item>
                 <img
                   className='d-block w-100'
-                  src={require('./img/gallery/img1.jpg')}
+                  src={require('./img/channel/ChannelLetterSign_1.jpg')}
                   alt='First slide'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
-                  src={require('./img/gallery/img2.jpg')}
+                  src={require('./img/lighted/LightedSign_2.jpg')}
                   alt='Second slide'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
-                  src={require('./img/gallery/img3.jpg')}
+                  src={require('./img/wall/WallSign_3.jpg')}
                   alt='Second slide'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
-                  src={require('./img/gallery/img4.jpg')}
+                  src={require('./img/wall/WallSign_1.jpg')}
                   alt='Second slide'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
-                  src={require('./img/gallery/img5.jpg')}
+                  src={require('./img/channel/ChannelLetterSign_1.jpg')}
                   alt='Second slide'
                 />
               </Carousel.Item>

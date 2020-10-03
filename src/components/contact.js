@@ -14,7 +14,7 @@ const Contact = () => {
           content='Reach out and Contact us today about building your next sign for your business'
         ></meta>
       </Helmet>
-      <Nav fill variant='pills' defaultActiveKey='/contact'>
+      <Nav className="navGap" fill variant='pills' defaultActiveKey='/contact'>
         <Nav.Item>
           <Nav.Link href='/' eventKey='link-2'>
             HOME

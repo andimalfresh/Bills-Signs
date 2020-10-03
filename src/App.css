@@ -20,6 +20,9 @@ img {
 .activeTab {
   background-color: #dc3545 !important;
 }
+.navGap {
+  margin:10px;
+}
 ul {
   padding: 0em;
   margin-block-start: 0em;
@@ -151,7 +154,7 @@ ul.cardList {
 } */
 .sliderContainer {
   height: 300px;
-  width: 300px;
+  width: 450px;
   padding-bottom: 25px;
 }
 .carousel-item,
@@ -258,10 +261,10 @@ ul.cardList {
     justify-content: center;
     width: 100%;
   }
-  .sliderContainer {
+  /* .sliderContainer {
     height: 600px;
     width: 600px;
-  }
+  } */
   .contactCard {
     display: flex;
     justify-content: center;

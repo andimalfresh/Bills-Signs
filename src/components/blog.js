@@ -28,7 +28,7 @@ const Blog = () => {
           content='Reach out and Blog us today about building your next sign for your business'
         ></meta>
       </Helmet>
-      <Nav fill variant='pills' defaultActiveKey='/blog'>
+      <Nav className="navGap" fill variant='pills' defaultActiveKey='/blog'>
         <Nav.Item>
           <Nav.Link href='/' eventKey='link-2'>
             HOME
