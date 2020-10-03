@@ -1273,7 +1273,7 @@ const Services = () => {
           make for your business.
         </div>
         <Card>
-          <Container>
+          <Container className="servicesCard">
             <Row className='buttonRow'>
               <Col>
                 <div

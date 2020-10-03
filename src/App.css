@@ -125,6 +125,10 @@ ul.cardList {
   margin-left: 25px;
   font-weight: bold;
 }
+.servicesCard {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 /* .modalDiv,.modalDivFlag {
   display: flex;
   justify-content: center;
