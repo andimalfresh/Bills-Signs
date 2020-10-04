@@ -44,35 +44,28 @@ const Land = () => {
                 <img
                   className='d-block w-100'
                   src={require('./img/channel/ChannelLetterSign_1.jpg')}
-                  alt='First slide'
+                  alt='Jimmy Johns Channel Letter Sign'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={require('./img/lighted/LightedSign_2.jpg')}
-                  alt='Second slide'
+                  alt='Rapid Car Wash Light Up Pole Sign'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={require('./img/wall/WallSign_3.jpg')}
-                  alt='Second slide'
+                  alt='Cantina Tacos and Tequila Light Up Wall Sign'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={require('./img/wall/WallSign_1.jpg')}
-                  alt='Second slide'
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className='d-block w-100'
-                  src={require('./img/channel/ChannelLetterSign_1.jpg')}
-                  alt='Second slide'
+                  alt='Ginza | Red Sushi Light Up Wall Sign'
                 />
               </Carousel.Item>
             </Carousel>
