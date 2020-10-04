@@ -44,28 +44,28 @@ const Land = () => {
                 <img
                   className='d-block w-100'
                   src={require('./img/channel/ChannelLetterSign_1.jpg')}
-                  alt='Jimmy Johns Channel Letter Sign'
+                  alt='Jimmy Johns Channel Letter Sign by Bills Signs and Service in Tallahassee'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={require('./img/lighted/LightedSign_2.jpg')}
-                  alt='Rapid Car Wash Light Up Pole Sign'
+                  alt='Rapid Car Wash Light Up Pole Sign by Bills Signs and Service in Tallahassee'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={require('./img/wall/WallSign_3.jpg')}
-                  alt='Cantina Tacos and Tequila Light Up Wall Sign'
+                  alt='Cantina Tacos and Tequila Light Up Wall Sign by Bills Signs and Service in Tallahassee'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={require('./img/wall/WallSign_1.jpg')}
-                  alt='Ginza | Red Sushi Light Up Wall Sign'
+                  alt='Ginza | Red Sushi Light Up Wall Sign by Bills Signs and Service in Tallahassee'
                 />
               </Carousel.Item>
             </Carousel>

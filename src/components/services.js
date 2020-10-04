@@ -32,49 +32,49 @@ function ModalForLighted(props) {
               <img
                 className='sliderContainer'
                 src={require('./img/lighted/LightedSign_1.jpg')}
-                alt='Cantina Tacos and Tequila Ligtht Up Wall Sign at Night'
+                alt='Cantina Tacos and Tequila Ligtht Up Wall Sign at Night by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/lighted/LightedSign_2.jpg')}
-                alt='Red Rapid Car Wash Light Up Pole Sign at Night'
+                alt='Red Rapid Car Wash Light Up Pole Sign at Night by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/lighted/LightedSign_3.jpg')}
-                alt='Rik Sha Tacos Asian Street Food Light Up Wall Sign at Night'
+                alt='Rik Sha Tacos Asian Street Food Light Up Wall Sign at Night by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/lighted/LightedSign_4.jpg')}
-                alt='Yobe Frozen Yougurt Light Up Wall Sign at Night'
+                alt='Yobe Frozen Yougurt Light Up Wall Sign at Night by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/lighted/LightedSign_5.jpg')}
-                alt='Fisherman Warf Light Up Wall Sign at Night'
+                alt='Fisherman Warf Light Up Wall Sign at Night by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/lighted/LightedSign_6.jpg')}
-                alt='Mint and Lime Asian Bistro Light Up Wall Sign at Night'
+                alt='Mint and Lime Asian Bistro Light Up Wall Sign at Night by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/lighted/LightedSign_7.jpg')}
-                alt='Piggys Bar B Que Light Up Pole Sign at Night'
+                alt='Piggys Bar B Que Light Up Pole Sign at Night by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
           </Carousel>
@@ -134,42 +134,42 @@ function ModalForChannel(props) {
               <img
                 className='sliderContainer'
                 src={require('./img/channel/ChannelLetterSign_1.jpg')}
-                alt='Jimmy Johns Channel Letter Wall Sign'
+                alt='Jimmy Johns Channel Letter Wall Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/channel/ChannelLetterSign_2.jpg')}
-                alt='Great Clips Channel Letter Wall Sign'
+                alt='Great Clips Channel Letter Wall Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/channel/ChannelLetterSign_3.jpg')}
-                alt='Verizon Wireless Channel Letter Wall Sign'
+                alt='Verizon Wireless Channel Letter Wall Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/channel/ChannelLetterSign_4.jpg')}
-                alt='Florida State University Credit Union Channel Letter Wall Sign'
+                alt='Florida State University Credit Union Channel Letter Wall Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/channel/ChannelLetterSign_5.jpg')}
-                alt='Allied Public Adjusters Channel Letter Wall Sign'
+                alt='Allied Public Adjusters Channel Letter Wall Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/channel/ChannelLetterSign_6.jpg')}
-                alt='M and M Monogramming on Mahan Channel Letter Wall Sign'
+                alt='M and M Monogramming on Mahan Channel Letter Wall Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
           </Carousel>
@@ -228,49 +228,49 @@ function ModalForElectronic(props) {
               <img
                 className='sliderContainer2'
                 src={require('./img/electronic/ElectronicMessageDisplaySign_1.jpg')}
-                alt='Carpet One Electronic Message Sign'
+                alt='Carpet One Electronic Message Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/electronic/ElectronicMessageDisplaySign_2.jpg')}
-                alt='The Centre of Tallahassee Electronic Message Sign'
+                alt='The Centre of Tallahassee Electronic Message Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/electronic/ElectronicMessageDisplaySign_3.jpg')}
-                alt='Periodontal Associates Electronic Message Sign'
+                alt='Periodontal Associates Electronic Message Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/electronic/ElectronicMessageDisplaySign_4.jpg')}
-                alt='StarBucks Electronic Message Sign'
+                alt='StarBucks Electronic Message Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/electronic/ElectronicMessageDisplaySign_5.jpg')}
-                alt='Gessler Clinic PA Electronic Message Sign'
+                alt='Gessler Clinic PA Electronic Message Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/electronic/ElectronicMessageDisplaySign_6.jpg')}
-                alt='First Baptist Arnold Electronic Message Sign'
+                alt='First Baptist Arnold Electronic Message Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/electronic/ElectronicMessageDisplaySign_7.jpg')}
-                alt='Winsted Area Ambulance Electronic Message Sign'
+                alt='Winsted Area Ambulance Electronic Message Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
           </Carousel>
@@ -332,42 +332,42 @@ function ModalForPole(props) {
               <img
                 className='sliderContainer2'
                 src={require('./img/pole/PoleSign_1.jpg')}
-                alt='North Florida Fair Electronic Message and Pole Sign'
+                alt='North Florida Fair Electronic Message and Pole Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/pole/PoleSign_2.jpg')}
-                alt='Sonnys BBQ Pole Sign'
+                alt='Sonnys BBQ Pole Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/pole/PoleSign_3.jpg')}
-                alt='Peppers Mexican Grill and Cantina Pole Sign'
+                alt='Peppers Mexican Grill and Cantina Pole Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/pole/PoleSign_4.jpg')}
-                alt='Dairy Queen Orange Julius Pole Sign'
+                alt='Dairy Queen Orange Julius Pole Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/pole/PoleSign_5.jpg')}
-                alt='Red Hills Powersports Pole Sign'
+                alt='Red Hills Powersports Pole Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/pole/PoleSign_6.jpg')}
-                alt='University GMC Chevrolet Pole Sign'
+                alt='University GMC Chevrolet Pole Sign by Bills Signs and Service in Tallahassee'
               />
             </Carousel.Item>
           </Carousel>
@@ -431,49 +431,49 @@ function ModalForWall(props) {
               <img
                 className='sliderContainer'
                 src={require('./img/wall/WallSign_1.jpg')}
-                alt='This is a Wall sign Example #1'
+                alt='Ginza Red Sushi Wall Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/wall/WallSign_2.jpg')}
-                alt='Ginza Red Sushi Wall Sign'
+                alt='Studio Six Wall Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/wall/WallSign_3.jpg')}
-                alt='Cantina Tacos and Tequila Wall Sign'
+                alt='Cantina Tacos and Tequila Wall Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/wall/WallSign_4.jpg')}
-                alt='McAffee Indoor Wall Sign'
+                alt='McAffee Indoor Wall Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/wall/WallSign_6.jpg')}
-                alt='Ora Indoor Wall Sign'
+                alt='Ora Indoor Wall Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/wall/WallSign_7.jpg')}
-                alt='Dunsheas United Realty Indoor Wall Sign'
+                alt='Dunsheas United Realty Indoor Wall Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/wall/WallSign_8.jpg')}
-                alt='Zingales Billards Outdoor Wall Sign'
+                alt='Zingales Billards Outdoor Wall Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
           </Carousel>
@@ -516,49 +516,49 @@ function ModalForMonument(props) {
               <img
                 className='sliderContainer'
                 src={require('./img/monument/MonumentSign_1.jpg')}
-                alt='Which Wich Monument Sign'
+                alt='Which Wich Monument Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/monument/MonumentSign_2.jpg')}
-                alt='The Epic at Gateway Centre Monument Sign'
+                alt='The Epic at Gateway Centre Monument Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/monument/MonumentSign_3.jpg')}
-                alt='Gessler Clinic PA Monument and Electronic Message Sign'
+                alt='Gessler Clinic PA Monument and Electronic Message Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/monument/MonumentSign_4.jpg')}
-                alt='Simpsonwood United Methodist Church Monument Sign'
+                alt='Simpsonwood United Methodist Church Monument Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/monument/MonumentSign_5.jpg')}
-                alt='Periodontal Assoicaites Monument and Electronic Message Sign'
+                alt='Periodontal Assoicaites Monument and Electronic Message Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/monument/MonumentSign_6.jpg')}
-                alt='DuPont Office Centre Monument Sign'
+                alt='DuPont Office Centre Monument Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/monument/MonumentSign_7.jpg')}
-                alt='State Farm Insurance Monument Sign'
+                alt='State Farm Insurance Monument Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
           </Carousel>
@@ -611,49 +611,49 @@ function ModalForPylon(props) {
               <img
                 className='sliderContainer2'
                 src={require('./img/pylon/PylonSign_1.jpg')}
-                alt='Red Rapid Car Wash Electronic Message and Pylon Sign'
+                alt='Red Rapid Car Wash Electronic Message and Pylon Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/pylon/PylonSign_2.jpg')}
-                alt='ACE Hardware and Garden Center Pylon Sign'
+                alt='ACE Hardware and Garden Center Pylon Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/pylon/PylonSign_3.jpg')}
-                alt='Audi Car Dealership Pylon Sign'
+                alt='Audi Car Dealership Pylon Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/pylon/PylonSign_4.jpg')}
-                alt='Park North Shopping Center Pylon Sign'
+                alt='Park North Shopping Center Pylon Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/pylon/PylonSign_5.jpg')}
-                alt='Volvo Car Dealershop Pylon Sign'
+                alt='Volvo Car Dealershop Pylon Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/pylon/PylonSign_6.jpg')}
-                alt='Mackenzie Shopping Center Pylon Sign'
+                alt='Mackenzie Shopping Center Pylon Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/pylon/PylonSign_7.jpg')}
-                alt='Aldi Food Market Pylon Sign'
+                alt='Aldi Food Market Pylon Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
           </Carousel>
@@ -703,49 +703,49 @@ function ModalForPlaques(props) {
               <img
                 className='sliderContainer'
                 src={require('./img/plaques/Plaque_1.jpg')}
-                alt='William Anderson Alexander Memorial Plaque'
+                alt='William Anderson Alexander Memorial Plaque by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/plaques/Plaque_2.jpg')}
-                alt='Aplachicola Arsenal Memoral Plaque'
+                alt='Aplachicola Arsenal Memoral Plaque by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/plaques/Plaque_3.jpg')}
-                alt='Florida State University Sod Cemetery Plaques'
+                alt='Florida State University Sod Cemetery Plaques by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/plaques/Plaque_4.jpg')}
-                alt='American Legion Memorial Plaque'
+                alt='American Legion Memorial Plaque by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/plaques/Plaque_5.jpg')}
-                alt='Memorial Garden Plaque'
+                alt='Memorial Garden Plaque by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/plaques/Plaque_6.jpg')}
-                alt='Coach Ron Schipper Memorial Plaque '
+                alt='Coach Ron Schipper Memorial Plaque by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/plaques/Plaque_7.jpg')}
-                alt='Memorial Plaque for Fallen Soldiers'
+                alt='Memorial Plaque for Fallen Soldiers by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
           </Carousel>
@@ -788,70 +788,70 @@ function ModalForWay(props) {
               <img
                 className='sliderContainer'
                 src={require('./img/way/DirectionalSign_1.jpg')}
-                alt='Star Bucks Drive Thru Way Finding Sign'
+                alt='Star Bucks Drive Thru Way Finding Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/way/DirectionalSign_2.jpg')}
-                alt='Shipping Center Enterence Way Finding Sign'
+                alt='Shipping Center Enterence Way Finding Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/way/DirectionalSign_3.jpg')}
-                alt='Commerical Building Lobby Way Finding Sign'
+                alt='Commerical Building Lobby Way Finding Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/way/DirectionalSign_4.jpg')}
-                alt='Bay View Centre Way Finding Directional Sign'
+                alt='Bay View Centre Way Finding Directional Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/way/DirectionalSign_5.jpg')}
-                alt='Jimmy Johns Drive Thru Way Finding Sign'
+                alt='Jimmy Johns Drive Thru Way Finding Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/way/DirectionalSign_6.jpg')}
-                alt='Commerical Building Classroom Way Finding Sign'
+                alt='Commerical Building Classroom Way Finding Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/way/DirectionalSign_7.jpg')}
-                alt='Parking Garage Way Finding Sign'
+                alt='Parking Garage Way Finding Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/way/DirectionalSign_8.jpg')}
-                alt='Restroom Way Finding Sign'
+                alt='Restroom Way Finding Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/way/DirectionalSign_9.jpg')}
-                alt='Fast Food Drive Thru Way Finding Sign'
+                alt='Fast Food Drive Thru Way Finding Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer'
                 src={require('./img/way/DirectionalSign_10.jpg')}
-                alt='McDonalds Drive Thru Way Finding Sign'
+                alt='McDonalds Drive Thru Way Finding Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
           </Carousel>
@@ -907,35 +907,35 @@ function ModalForShopping(props) {
               <img
                 className='sliderContainer2'
                 src={require('./img/tenantshopping/ShoppingCenterSign_2.jpg')}
-                alt='Target Shopping Center Multiple Tenant Sign'
+                alt='Target Shopping Center Multiple Tenant Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/tenantshopping/ShoppingCenterSign_3.jpg')}
-                alt='Marshalls PetSmart Shopping Center Multiple Tenant Sign'
+                alt='Marshalls PetSmart Shopping Center Multiple Tenant Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/tenantshopping/ShoppingCenterSign_4.jpg')}
-                alt='Towne Center at Cypress Gardens Shopping Center Multiple Tenant Sign'
+                alt='Towne Center at Cypress Gardens Shopping Center Multiple Tenant Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/tenantshopping/ShoppingCenterSign_5.jpg')}
-                alt='Lakeside Village Shopping Center Multiple Tenant Sign'
+                alt='Lakeside Village Shopping Center Multiple Tenant Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/tenantshopping/ShoppingCenterSign_6.jpg')}
-                alt='Sporting Goods Staples HomeGoods Shopping Center Multiple Tenant Sign'
+                alt='Sporting Goods Staples HomeGoods Shopping Center Multiple Tenant Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
           </Carousel>
@@ -984,49 +984,49 @@ function ModalForVinyl(props) {
               <img
                 className='sliderContainer2'
                 src={require('./img/vinyl/VinylSign_1.jpg')}
-                alt='Athletic Apparel Sale Vinyl Window Sign'
+                alt='Athletic Apparel Sale Vinyl Window Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/vinyl/VinylSign_2.jpg')}
-                alt='AllState Insurance Entry Door Vinyl Hours of Operation Sign'
+                alt='AllState Insurance Entry Door Vinyl Hours of Operation Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/vinyl/VinylSign_3.jpg')}
-                alt='Comapny Tagline and Advertisting Window Sign'
+                alt='Comapny Tagline and Advertisting Window Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/vinyl/VinylSign_4.jpg')}
-                alt='Vinyl Truck Covering for Business'
+                alt='Vinyl Truck Covering for Business by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/vinyl/VinylSign_5.jpg')}
-                alt='Church Vinyl Logo Window Sign'
+                alt='Church Vinyl Logo Window Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/vinyl/VinylSign_7.jpg')}
-                alt='Allegro Senior Living Vinyl Vehicle Sign'
+                alt='Allegro Senior Living Vinyl Vehicle Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/vinyl/VinylSign_8.jpg')}
-                alt='Hours of Operation Vinyl Window Sign'
+                alt='Hours of Operation Vinyl Window Sign by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
           </Carousel>
@@ -1077,28 +1077,28 @@ function ModalForFlags(props) {
               <img
                 className='sliderContainer2'
                 src={require('./img/flag/FlagPole_1.jpg')}
-                alt='Court Yard American Flag Pole'
+                alt='Court Yard American Flag Pole by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/flag/FlagPole_2.jpg')}
-                alt='Sothebys Real Estate Building Flag Pole'
+                alt='Sothebys Real Estate Building Flag Pole by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/flag/FlagPole_3.jpg')}
-                alt='Business American Flag Pole'
+                alt='Business American Flag Pole by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className='sliderContainer2'
                 src={require('./img/flag/FlagPole_4.jpg')}
-                alt='Alexander McQueen Building Flag Pole'
+                alt='Alexander McQueen Building Flag Pole by Bills Signs in Tallahassee'
               />
             </Carousel.Item>
           </Carousel>
@@ -1195,35 +1195,28 @@ const Services = () => {
                 <img
                   className='d-block w-100'
                   src={require('./img/channel/ChannelLetterSign_1.jpg')}
-                  alt='First slide'
+                  alt='Jimmy Johns Channel Letter Sign by Bills Signs and Service in Tallahassee'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={require('./img/lighted/LightedSign_2.jpg')}
-                  alt='Second slide'
+                  alt='Rapid Car Wash Light Up Pole Sign by Bills Signs and Service in Tallahassee'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={require('./img/wall/WallSign_3.jpg')}
-                  alt='Second slide'
+                  alt='Cantina Tacos and Tequila Light Up Wall Sign by Bills Signs and Service in Tallahassee'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={require('./img/wall/WallSign_1.jpg')}
-                  alt='Second slide'
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className='d-block w-100'
-                  src={require('./img/channel/ChannelLetterSign_1.jpg')}
-                  alt='Second slide'
+                  alt='Ginza | Red Sushi Light Up Wall Sign by Bills Signs and Service in Tallahassee'
                 />
               </Carousel.Item>
             </Carousel>
