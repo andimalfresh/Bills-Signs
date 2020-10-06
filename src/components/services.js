@@ -388,21 +388,6 @@ function ModalForPole(props) {
             well as restoring and repairing existing equipment to meet the needs
             of your business.
           </p>
-          <p>
-            Wall Signs can be fabricated from any number of materials ranging
-            from metal to vinyl which are mounted or applied to a wall or window
-            both inside and outside of a business. When it comes to marketing,
-            consider adding a wall and window sign at a high traffic location or
-            entrance to display your company tagline, a special or hours of
-            service.
-          </p>
-          <p>
-            As the first state licensed and insured sign manufacturer in
-            Tallahassee, FL, Bill’s Signs and Services has over 65 years
-            experience designing, fabricating and installing new Wall and Window
-            Signage, as well as restoring and repairing existing signage to meet
-            the needs of your business.
-          </p>
         </div>
       </Modal.Body>
       <Modal.Footer>
@@ -480,11 +465,19 @@ function ModalForWall(props) {
         </div>
         <div>
           <p>
+            Wall Signs can be fabricated from any number of materials ranging
+            from metal to vinyl which are mounted or applied to a wall or window
+            both inside and outside of a business. When it comes to marketing,
+            consider adding a wall and window sign at a high traffic location or
+            entrance to display your company tagline, a special or hours of
+            service.
+          </p>
+          <p>
             As the first state licensed and insured sign manufacturer in
             Tallahassee, FL, Bill’s Signs and Services has over 65 years
-            experience designing, fabricating and installing new Monument Signs,
-            as well as restoring and repairing existing signage to meet the
-            needs of your business.
+            experience designing, fabricating and installing new Wall and Window
+            Signage, as well as restoring and repairing existing signage to meet
+            the needs of your business.
           </p>
         </div>
       </Modal.Body>
@@ -950,9 +943,9 @@ function ModalForShopping(props) {
           <p>
             As the first state licensed and insured sign manufacturer in
             Tallahassee, FL, Bill’s Signs and Services has over 65 years
-            experience designing, fabricating and installing Way-Finding and
-            Directional Signs, as well as restoring and repairing existing
-            signage to meet the needs of your business.
+            experience designing, fabricating and installing Shopping Center
+            Signs, as well as restoring and repairing existing signage to meet
+            the needs of your business.
           </p>
         </div>
       </Modal.Body>
@@ -1044,9 +1037,9 @@ function ModalForVinyl(props) {
           <p>
             As the first state licensed and insured sign manufacturer in
             Tallahassee, FL, Bill’s Signs and Services has over 65 years
-            experience designing, fabricating and installing Way-Finding and
-            Directional Signs, as well as restoring and repairing existing
-            signage to meet the needs of your business.
+            experience designing, fabricating and installing Vinyl Signs and
+            Decals, as well as restoring and repairing existing signage to meet
+            the needs of your business.
           </p>
         </div>
       </Modal.Body>
@@ -1111,9 +1104,9 @@ function ModalForFlags(props) {
           <p>
             As the first state licensed and insured sign manufacturer in
             Tallahassee, FL, Bill’s Signs and Services has over 65 years
-            experience designing, fabricating and installing Way-Finding and
-            Directional Signs, as well as restoring and repairing existing
-            signage to meet the needs of your business.
+            experience designing, fabricating and installing Flag Poles, as well
+            as restoring and repairing existing signage to meet the needs of
+            your business.
           </p>
         </div>
       </Modal.Body>
@@ -1151,7 +1144,7 @@ const Services = () => {
           content="Here is a list of services provided by Bill's Signs. Contact us today about building a new project for your business."
         ></meta>
       </Helmet>
-      <Nav className="navGap" fill variant='pills' defaultActiveKey='/services'>
+      <Nav className='navGap' fill variant='pills' defaultActiveKey='/services'>
         <Nav.Item>
           <Nav.Link href='/' eventKey='link-1'>
             HOME
@@ -1191,7 +1184,7 @@ const Services = () => {
           </ul>
           <div className='d-flex justify-content-center'>
             <Carousel>
-            <Carousel.Item>
+              <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={require('./img/channel/ChannelLetterSign_1.jpg')}
@@ -1266,7 +1259,7 @@ const Services = () => {
           make for your business.
         </div>
         <Card>
-          <Container className="servicesCard">
+          <Container className='servicesCard'>
             <Row className='buttonRow'>
               <Col>
                 <div
