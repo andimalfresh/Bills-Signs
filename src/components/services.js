@@ -1098,8 +1098,8 @@ function ModalForFlags(props) {
         </div>
         <div>
           <p>
-            Contact Bill's today to get more information on how we can contruct
-            a flag pole for you that is built to last for years to come.
+            Contact Bill's today to get more information on how we can construct
+            a flagpole for you that is built to last for years to come.
           </p>
           <p>
             As the first state licensed and insured sign manufacturer in
@@ -1237,7 +1237,7 @@ const Services = () => {
               <span className='redText'>LED Backlit Signs</span>like other
               Lighted or Illuminated Signs are best known for their visibility
               during both the daytime and the evening and are sometimes referred
-              to as Halo Signs. This sign style as able to make any logo or
+              to as Halo Signs. This sign style able to make any logo or
               brand name stand out with it’s halo lighting effect and are a
               popular sign style for both indoor lobby’s and windows as well as
               outdoor rooftops, walls and monuments to help your businesses
