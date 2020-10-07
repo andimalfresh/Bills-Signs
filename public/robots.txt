@@ -3,5 +3,4 @@ User-agent: *
 Disallow:
 
 Sitemap: https://www.billssigns.com/pagessitemap.xml
-Sitemap: https://www.billssigns.com/rootsitemap.xml
 Sitemap: https://www.billssigns.com/blogpagessitemap.xml
