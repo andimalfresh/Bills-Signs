@@ -1137,7 +1137,7 @@ const Services = () => {
     <div>
       <Helmet>
         <meta charSet='utf-8' />
-        <title>Bill's Signs - Services </title>
+        <title>Bill's Signs &amp; Services - Services</title>
         <link rel='canonical' href='https://billssigns.com/services' />
         <meta
           name='Bills Signs'

@@ -3,11 +3,16 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Button from 'react-bootstrap/Button';
 import { Carousel, Card, Accordion } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
-
+import { Helmet } from 'react-helmet';
 const Land = () => {
   return (
-    <div>
-      <Nav className="navGap" fill variant='pills' defaultActiveKey='/'>
+    <div className='pageContainer'>
+      <Helmet>
+        <meta charSet='utf-8' />
+        <title>Bills Sign's &amp; and Services - HOME </title>
+        <link rel='canonical' href='https://billssigns.com/' />
+      </Helmet>
+      <Nav className='navGap' fill variant='pills' defaultActiveKey='/'>
         <Nav.Item>
           <Nav.Link href='/' className='activeTab'>
             HOME
@@ -40,7 +45,7 @@ const Land = () => {
           <span className='redText'>SINCE 1969</span>
           <div className='d-flex justify-content-center contentDiv'>
             <Carousel>
-            <Carousel.Item>
+              <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={require('./img/channel/ChannelLetterSign_1.jpg')}

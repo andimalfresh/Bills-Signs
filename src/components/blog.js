@@ -21,11 +21,11 @@ const Blog = () => {
   return (
     <div>
       <Helmet>
-        <title>Bill's Signs - Blog </title>
+        <title>Bill's Signs &amp; Services - Blog </title>
         <link rel='canonical' href='https://billssigns.com/blog' />
         <meta
           name='Bills Signs'
-          content='Reach out and Blog us today about building your next sign for your business'
+          content='Reach out to us today about building your next sign for your business'
         ></meta>
       </Helmet>
       <Nav className="navGap" fill variant='pills' defaultActiveKey='/blog'>

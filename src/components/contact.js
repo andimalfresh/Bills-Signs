@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div>
       <Helmet>
-        <title>Bill's Signs - Contact </title>
+        <title>Bill's Signs &amp; Services - Contact </title>
         <link rel='canonical' href='https://billssigns.com/contact' />
         <meta
           name='Bills Signs'
