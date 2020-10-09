@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.billssigns.com/pagessitemap.xml
+Sitemap: https://billssigngs.com/pagessitemap.xml
